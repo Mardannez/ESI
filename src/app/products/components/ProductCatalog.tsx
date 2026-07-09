@@ -11,6 +11,7 @@ import { products, Product } from '@/data/products';
 interface FilterState {
   search: string;
   category: string;
+  risk: string;
   brand: string;
   availability: string;
 }
@@ -19,8 +20,9 @@ export default function ProductCatalog() {
   const searchParams = useSearchParams();
 
   const [filters, setFilters] = useState<FilterState>({
-    search: '',
+    search: searchParams.get('search') || '',
     category: searchParams.get('category') || '',
+    risk: searchParams.get('risk') || '',
     brand: '',
     availability: '',
   });
@@ -29,16 +31,36 @@ export default function ProductCatalog() {
 
   useEffect(() => {
     const cat = searchParams.get('category');
-    if (cat) setFilters((f) => ({ ...f, category: cat }));
+    const search = searchParams.get('search');
+    const risk = searchParams.get('risk');
+    setFilters((f) => ({
+      ...f,
+      category: cat ?? f.category,
+      search: search ?? f.search,
+      risk: risk ?? f.risk,
+    }));
   }, [searchParams]);
 
   const filtered = useMemo(() => {
     return products.filter((p) => {
-      const matchSearch = !filters.search || p.name.toLowerCase().includes(filters.search.toLowerCase());
+      const searchHaystack = [
+        p.name,
+        p.code,
+        p.originalName,
+        p.brand,
+        p.category,
+        p.subcategory,
+        p.description,
+        p.shortDescription,
+        p.standard,
+        ...p.seoKeywords,
+      ].join(' ').toLowerCase();
+      const matchSearch = !filters.search || searchHaystack.includes(filters.search.toLowerCase());
       const matchCategory = !filters.category || p.category === filters.category;
+      const matchRisk = !filters.risk || p.riskTypes.includes(filters.risk as Product['riskTypes'][number]);
       const matchBrand = !filters.brand || p.brand === filters.brand;
       const matchAvail = !filters.availability || p.availability === filters.availability;
-      return matchSearch && matchCategory && matchBrand && matchAvail;
+      return matchSearch && matchCategory && matchRisk && matchBrand && matchAvail;
     });
   }, [filters]);
 
@@ -76,7 +98,7 @@ export default function ProductCatalog() {
                 No se encontraron productos con los filtros seleccionados.
               </p>
               <button
-                onClick={() => setFilters({ search: '', category: '', brand: '', availability: '' })}
+                onClick={() => setFilters({ search: '', category: '', risk: '', brand: '', availability: '' })}
                 className="btn-primary mt-4 inline-flex"
               >
                 Limpiar filtros

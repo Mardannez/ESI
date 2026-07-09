@@ -190,7 +190,7 @@ function RelatedCard({ product }: {product: Product;}) {
 // ─── Main Component ───────────────────────────────────────────────────────────
 
 export default function ProductDetails({ product, relatedProducts }: ProductDetailsProps) {
-  const images = [product.image, product.image, product.image, product.image];
+  const images = Array.from(new Set([product.image, ...(product.images ?? [])])).filter(Boolean);
   const [activeImg, setActiveImg] = useState(0);
   const [zoomed, setZoomed] = useState(false);
 
@@ -251,20 +251,24 @@ export default function ProductDetails({ product, relatedProducts }: ProductDeta
                 priority />
               
               {/* Prev/Next */}
-              <button
-                onClick={(e) => {e.stopPropagation();prevImg();}}
-                aria-label="Imagen anterior"
-                className="absolute left-3 top-1/2 -translate-y-1/2 w-9 h-9 flex items-center justify-center bg-card/90 hover:bg-card rounded-full shadow-md border border-border transition-all duration-200 hover:scale-110">
-                
-                <Icon name="ChevronLeft" size={18} className="text-foreground" />
-              </button>
-              <button
-                onClick={(e) => {e.stopPropagation();nextImg();}}
-                aria-label="Imagen siguiente"
-                className="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 flex items-center justify-center bg-card/90 hover:bg-card rounded-full shadow-md border border-border transition-all duration-200 hover:scale-110">
-                
-                <Icon name="ChevronRight" size={18} className="text-foreground" />
-              </button>
+              {images.length > 1 &&
+              <>
+                <button
+                  onClick={(e) => {e.stopPropagation();prevImg();}}
+                  aria-label="Imagen anterior"
+                  className="absolute left-3 top-1/2 -translate-y-1/2 w-9 h-9 flex items-center justify-center bg-card/90 hover:bg-card rounded-full shadow-md border border-border transition-all duration-200 hover:scale-110">
+                  
+                  <Icon name="ChevronLeft" size={18} className="text-foreground" />
+                </button>
+                <button
+                  onClick={(e) => {e.stopPropagation();nextImg();}}
+                  aria-label="Imagen siguiente"
+                  className="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 flex items-center justify-center bg-card/90 hover:bg-card rounded-full shadow-md border border-border transition-all duration-200 hover:scale-110">
+                  
+                  <Icon name="ChevronRight" size={18} className="text-foreground" />
+                </button>
+              </>
+              }
               {/* Zoom hint */}
               <div className="absolute bottom-3 right-3 flex items-center gap-1 bg-card/80 backdrop-blur-sm px-2 py-1 rounded-full text-xs text-muted-foreground border border-border">
                 <Icon name="ZoomIn" size={12} />
@@ -433,7 +437,7 @@ export default function ProductDetails({ product, relatedProducts }: ProductDeta
       {/* Reviews */}
       <div className="mb-12">
         <div className="flex items-center justify-between mb-6">
-          <h2 className="text-2xl font-bold text-foreground">Reseñas de Clientes</h2>
+            {/*<h2 className="text-2xl font-bold text-foreground">Reseñas de Clientes</h2>*/}
           <a
             href={whatsappUrl}
             target="_blank"
@@ -446,15 +450,16 @@ export default function ProductDetails({ product, relatedProducts }: ProductDeta
         </div>
 
         {/* Rating summary */}
-        <div className="bg-card rounded-lg border border-border p-6 mb-6">
+       
+         {/* <div className="bg-card rounded-lg border border-border p-6 mb-6">
           <div className="flex flex-col md:flex-row gap-8">
-            {/* Average */}
+          
             <div className="flex flex-col items-center justify-center md:w-40 shrink-0">
               <span className="text-5xl font-bold text-foreground">{avgRating}</span>
               <StarRating rating={avgRating} size={20} />
               <p className="text-sm text-muted-foreground mt-1">Basado en {totalReviews} reseñas</p>
             </div>
-            {/* Bars */}
+          
             <div className="flex-1 space-y-2">
               {[5, 4, 3, 2, 1].map((stars) => {
                 const found = ratingDist.find((r) => r.stars === stars);
@@ -469,10 +474,10 @@ export default function ProductDetails({ product, relatedProducts }: ProductDeta
               })}
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Review cards */}
-        <div className="space-y-4">
+        {/*<div className="space-y-4">
           {reviews.map((review) =>
           <div key={review.id} className="bg-card rounded-lg border border-border p-6 shadow-sm">
               <div className="flex items-start gap-4">
@@ -507,8 +512,13 @@ export default function ProductDetails({ product, relatedProducts }: ProductDeta
               </div>
             </div>
           )}
-        </div>
+        </div>*/}
+     
+     
+     
       </div>
+
+       
 
       {/* Related Products */}
       {relatedProducts.length > 0 &&

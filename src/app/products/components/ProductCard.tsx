@@ -45,14 +45,19 @@ export default function ProductCard({ product, onViewDetail }: ProductCardProps)
 
       {/* Content */}
       <div className="p-4 flex flex-col flex-1">
-        <p className="text-xs text-muted-foreground font-bold uppercase tracking-wide mb-1">{product.brand}</p>
+        <p className="text-xs text-muted-foreground font-bold uppercase tracking-wide mb-1">
+          {product.brand} {product.code ? `· ${product.code}` : ''}
+        </p>
         <h3
           className="font-bold text-foreground text-sm mb-2 line-clamp-2 cursor-pointer hover:text-primary transition-colors"
           onClick={() => onViewDetail(product)}
         >
           {product.name}
         </h3>
-        <p className="text-muted-foreground text-xs leading-relaxed mb-4 line-clamp-2 flex-1">{product.description}</p>
+        <p className="text-primary text-xs font-bold mb-2">{product.subcategory}</p>
+        <p className="text-muted-foreground text-xs leading-relaxed mb-4 line-clamp-2 flex-1">
+          {product.shortDescription || product.description}
+        </p>
 
         <div className="flex items-center justify-between mt-auto pt-3 border-t border-border gap-2">
           {product.price ? (

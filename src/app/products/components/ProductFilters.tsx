@@ -2,11 +2,12 @@
 
 import React from 'react';
 import Icon from '@/components/ui/AppIcon';
-import { categories, brands } from '@/data/products';
+import { categories, brands, riskFilters } from '@/data/products';
 
 interface FilterState {
   search: string;
   category: string;
+  risk: string;
   brand: string;
   availability: string;
 }
@@ -23,10 +24,10 @@ export default function ProductFilters({ filters, onChange, totalResults }: Prod
   };
 
   const clearAll = () => {
-    onChange({ search: '', category: '', brand: '', availability: '' });
+    onChange({ search: '', category: '', risk: '', brand: '', availability: '' });
   };
 
-  const hasFilters = filters.search || filters.category || filters.brand || filters.availability;
+  const hasFilters = filters.search || filters.category || filters.risk || filters.brand || filters.availability;
 
   return (
     <div className="bg-card border border-border rounded-2xl p-5 sticky top-24">
@@ -59,7 +60,7 @@ export default function ProductFilters({ filters, onChange, totalResults }: Prod
           <Icon name="Search" size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground" />
           <input
             type="text"
-            placeholder="Nombre del producto..."
+            placeholder="Nombre, código, keyword..."
             value={filters.search}
             onChange={(e) => handleChange('search', e.target.value)}
             className="w-full pl-9 pr-3 py-2.5 text-sm border border-border rounded-xl bg-background focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all"
@@ -82,6 +83,42 @@ export default function ProductFilters({ filters, onChange, totalResults }: Prod
             <option key={cat.id} value={cat.name}>{cat.name}</option>
           ))}
         </select>
+      </div>
+
+      {/* Risk */}
+      <div className="mb-5">
+        <label className="block text-xs font-bold text-foreground uppercase tracking-wide mb-2">
+          Tipo de riesgo
+        </label>
+        <div className="grid grid-cols-1 gap-2">
+          <button
+            type="button"
+            onClick={() => handleChange('risk', '')}
+            className={`flex items-center gap-2 rounded-xl border px-3 py-2 text-sm font-semibold transition-all ${
+              filters.risk === ''
+                ? 'border-primary bg-primary text-white'
+                : 'border-border bg-background text-foreground hover:border-primary hover:text-primary'
+            }`}
+          >
+            <Icon name="Grid3X3" size={14} className={filters.risk === '' ? 'text-white' : 'text-primary'} />
+            Todos los riesgos
+          </button>
+          {riskFilters.map((risk) => (
+            <button
+              key={risk.id}
+              type="button"
+              onClick={() => handleChange('risk', risk.id)}
+              className={`flex items-center gap-2 rounded-xl border px-3 py-2 text-sm font-semibold transition-all ${
+                filters.risk === risk.id
+                  ? 'border-primary bg-primary text-white'
+                  : 'border-border bg-background text-foreground hover:border-primary hover:text-primary'
+              }`}
+            >
+              <Icon name={risk.icon} size={14} className={filters.risk === risk.id ? 'text-white' : 'text-primary'} />
+              {risk.label}
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* Brand */}
