@@ -49,16 +49,20 @@ export default function FeaturedProductsSection() {
               {/* Image */}
               <Link
                 href={`/products/${product?.id}`}
-                className="relative h-52 overflow-hidden block"
+                className="relative h-52 overflow-hidden block bg-white"
                 aria-label={`Ver detalles de ${product?.name}`}
               >
-                <AppImage
-                  src={product?.image}
-                  alt={`${product?.name} - ${product?.category} industrial, producto sobre fondo claro`}
-                  fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
-                />
+                <div className="absolute inset-4 top-8">
+                  <AppImage
+                    src={product?.image}
+                    alt={`${product?.name} - ${product?.category} industrial, producto sobre fondo claro`}
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="w-full h-full group-hover:scale-105 transition-transform duration-500"
+                    style={{ objectFit: 'contain' }}
+                  />
+                </div>
+                <div className="absolute inset-x-0 top-0 h-20 bg-gradient-to-b from-slate-950/58 via-slate-900/26 to-transparent" />
                 {/* Availability badge */}
                 <div className="absolute top-3 left-3">
                   <span className={product?.availability === 'Disponible' ? 'badge-available' : 'badge-order'}>
@@ -68,7 +72,7 @@ export default function FeaturedProductsSection() {
                 </div>
                 {/* Category */}
                 <div className="absolute top-3 right-3">
-                  <span className="bg-primary/90 text-white text-xs font-bold px-2 py-0.5 rounded-full">
+                  <span className="inline-flex max-w-[170px] items-center rounded-full bg-primary px-2.5 py-1 text-right text-[11px] font-extrabold leading-tight text-white shadow-lg ring-1 ring-white/35">
                     {product?.category}
                   </span>
                 </div>

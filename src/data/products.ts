@@ -53,7 +53,7 @@ export const products: Product[] = [
     "brand": "JOPZ",
     "price": null,
     "availability": "Disponible",
-    "image": "https://images.unsplash.com/photo-1602886019766-b558d889d0e3",
+    "image": "/assets/images/CHALECO_JOPZ_MALLA_VERDE_CINTA REFLECTIVA_CON_VELCRO.png",
     "shortDescription": "Chaleco reflectivo JOPZ de malla liviana con cierre de velcro y bandas reflectivas, ideal para mejorar la visibilidad del trabajador en zonas de riesgo o tránsito vehicular.",
     "description": "Chaleco reflectivo diseñado para aumentar la visibilidad del trabajador durante labores en exteriores, áreas de riesgo, trabajos nocturnos o espacios con poca iluminación. Su material liviano tipo malla permite usarlo cómodamente sobre la ropa de trabajo, favoreciendo la ventilación durante jornadas prolongadas.",
     "features": [
@@ -104,7 +104,7 @@ export const products: Product[] = [
     "brand": "JUBA",
     "price": null,
     "availability": "Disponible",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_1c3dc06f7-1777881775479.png",
+    "image": "/assets/images/GUANTE_DIELÉCTRICO_X1000_VOLTIOS_CLASE_00_JUBA.png",
     "shortDescription": "Guante dieléctrico de látex natural JUBA para protección eléctrica, diseñado para labores con riesgo de contacto con corriente y uso junto con sobreguante de cuero.",
     "description": "Guante dieléctrico fabricado en látex natural con propiedades aislantes para trabajos eléctricos. Está orientado a proteger las manos frente al contacto accidental con conductores energizados y debe utilizarse con sobreguante de cuero para proteger el guante dieléctrico contra perforaciones, cortes y abrasión.",
     "features": [
@@ -153,7 +153,7 @@ export const products: Product[] = [
     "brand": "JUBA",
     "price": null,
     "availability": "Disponible",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_1c3dc06f7-1777881775479.png",
+    "image": "/assets/images/GUANTE_DIELÉCTRICO_X5000_VOLTIOS_CLASE_0_JUBA.png",
     "shortDescription": "Guante dieléctrico JUBA Clase 0 en látex natural, diseñado para trabajos eléctricos de baja tensión y protección frente al contacto accidental con conductores energizados.",
     "description": "Guante dieléctrico fabricado en látex natural de alta calidad, diseñado para labores eléctricas de baja tensión. Proporciona aislamiento eléctrico y protección frente al contacto accidental con conductores energizados. Para conservar su integridad, se recomienda utilizarlo junto con sobreguante de cuero contra cortes, perforaciones y abrasión.",
     "features": [
@@ -202,7 +202,7 @@ export const products: Product[] = [
     "brand": "JUBA",
     "price": 800,
     "availability": "Disponible",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_1c3dc06f7-1777881775479.png",
+    "image": "/assets/images/GUANTE_ANTICORTE_GRIS_PU_GRIS_EN_PALMA_JUBA.png",
     "shortDescription": "Guante anticorte JUBA con fibra K-Rock y recubrimiento de poliuretano en palma, ideal para manipulación de piezas cortantes con buen agarre y destreza.",
     "description": "Guante anticorte JUBA 4570RF Power Cut fabricado con fibra textil K-Rock y recubrimiento de poliuretano en la palma. Está diseñado para trabajos con riesgo de corte medio/alto, ofreciendo comodidad, transpirabilidad, precisión de movimiento y agarre en ambientes secos o ligeramente húmedos.",
     "features": [
@@ -254,7 +254,7 @@ export const products: Product[] = [
     "brand": "Ansell",
     "price": null,
     "availability": "Disponible",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_1dbd514a5-1765185557962.png",
+    "image": "/assets/images/GUANTE_QUÍMICO_NITRILO_VERDE_SIN_FORRO_18’_ANSELL_37185.png",
     "shortDescription": "Guante químico Ansell AlphaTec Solvex 37-185 de nitrilo, con longitud extendida de 18 pulgadas para protección de manos y antebrazos frente a químicos peligrosos.",
     "description": "Guante químico Ansell AlphaTec Solvex 37-185 fabricado en nitrilo de alta resistencia. Su longitud extendida de 457 mm proporciona cobertura hasta la parte superior del codo, ofreciendo protección frente a una amplia gama de productos químicos, además de resistencia a la abrasión y comodidad para trabajos prolongados.",
     "features": [
@@ -309,7 +309,7 @@ export const products: Product[] = [
     "brand": "SHOWA",
     "price": null,
     "availability": "Disponible",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_1c3dc06f7-1777881775479.png",
+    "image": "/assets/images/GUANTE_BAJA_TEMP_LATEX_EN_PALM_GRIS_SHOWA.png",
     "shortDescription": "Guante térmico SHOWA 451 para ambientes fríos, con aislamiento y recubrimiento de caucho natural en palma para mayor agarre y comodidad.",
     "description": "Guante térmico SHOWA 451 diseñado para climas fríos y aplicaciones de almacenamiento, distribución y logística. Cuenta con aislamiento térmico, forro sin costuras y recubrimiento de caucho natural en la palma, ofreciendo comodidad, agarre y resistencia a la abrasión. También protege frente al contacto con detergentes agresivos y alcoholes.",
     "features": [
@@ -416,7 +416,7 @@ export const products: Product[] = [
     "brand": "JOPZ",
     "price": null,
     "availability": "Disponible",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_1dbd514a5-1765185557962.png",
+    "image": "/assets/images/GUANTE_CUERO_GRIS_PULIDO_ELÉCTRICO_JOPZ.png",
     "shortDescription": "Guante de cuero gris pulido JOPZ para trabajos eléctricos, mantenimiento industrial y manipulación de materiales, con doble palma reforzada.",
     "description": "Guante de cuero gris pulido eléctrico JOPZ diseñado para trabajos eléctricos, mantenimiento industrial y manipulación de materiales. Fabricado en cuero de alta calidad, proporciona protección, comodidad y resistencia al desgaste en aplicaciones de uso continuo. También puede utilizarse como sobreguante de protección mecánica para guantes dieléctricos, según procedimiento técnico.",
     "features": [
@@ -465,7 +465,7 @@ export const products: Product[] = [
     "brand": "Ansell",
     "price": null,
     "availability": "Disponible",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_1c3dc06f7-1777881775479.png",
+    "image": "/assets/images/MANGA_100%_KEVLAR_DUPONT_CORTES_ALTAS _TEMPERATURAS.png",
     "shortDescription": "Manga de protección con fibras Kevlar Dupont para proteger brazos y antebrazos contra cortes, abrasión y quemaduras leves.",
     "description": "Manga de protección fabricada con fibras de Kevlar, diseñada para brindar protección mecánica contra cortes, abrasión y quemaduras leves en brazos y antebrazos. Es ideal para manipulación de materiales afilados donde se requiere comodidad, flexibilidad y libertad de movimiento.",
     "features": [
@@ -516,7 +516,7 @@ export const products: Product[] = [
     "brand": "INSAFE",
     "price": null,
     "availability": "Disponible",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_12e845811-1779252722026.png",
+    "image": "/assets/images/BARBUQUEJO_CUATRO_PUNTOS_GRADUABLE INSAFE.png",
     "shortDescription": "Barbuquejo INSAFE de 4 puntos para asegurar el casco durante trabajos en altura o actividades de alto movimiento.",
     "description": "Barbuquejo diseñado para proporcionar una sujeción segura del casco de seguridad, evitando desplazamientos o desprendimientos durante trabajos en altura o actividades de alto movimiento. Ofrece comodidad mediante mentonera ergonómica y sistema de ajuste graduable.",
     "features": [
@@ -566,7 +566,7 @@ export const products: Product[] = [
     "brand": "INSAFE",
     "price": null,
     "availability": "Disponible",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_12e845811-1779252722026.png",
+    "image": "/assets/images/CASCO_TIPO_I_DIELÉCTRICO_CONTRA_ALTO VOLTAJE_(30.000 VOLTIOS).png",
     "shortDescription": "Casco dieléctrico INSAFE Tipo I fabricado en HDPE, con suspensión de 6 puntos y ajuste ratchet para protección contra impactos y riesgos eléctricos.",
     "description": "Casco de seguridad dieléctrico INSAFE diseñado para proteger la cabeza contra impactos, penetración de objetos y riesgos eléctricos. Está fabricado en polietileno de alta densidad, incorpora suspensión de 6 puntos y ajuste tipo ratchet para brindar comodidad y seguridad en entornos industriales.",
     "features": [
@@ -617,7 +617,7 @@ export const products: Product[] = [
     "brand": "JOPZ",
     "price": null,
     "availability": "Disponible",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_14e3e32a3-1764676652509.png",
+    "image": "/assets/images/ANTEOJO_OSCURO_JOPZ_MODELO_CUBE_CON_CORDÓN.png",
     "shortDescription": "Anteojo de seguridad JOPZ modelo CUBE con cordón, lentes de policarbonato, antifog y protección UV para trabajos con riesgo de impacto.",
     "description": "Anteojo de seguridad modelo CUBE con cordón, diseñado para brindar protección visual en trabajos con riesgo de impacto en los ojos. Su diseño flexible, ligero y ergonómico permite un uso prolongado con mayor comodidad para el usuario.",
     "features": [
@@ -673,7 +673,7 @@ export const products: Product[] = [
     "brand": "3M",
     "price": null,
     "availability": "Disponible",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_191a55fc9-1779252720364.png",
+    "image": "/assets/images/TAPÓN_DESECHABLE_3M_1110_CON_CORDÓN_UNIDAD.png",
     "shortDescription": "Tapón auditivo desechable 3M 1110 con cordón, fabricado en espuma de poliuretano hipoalergénica con atenuación NRR 29 dB.",
     "description": "Tapones auditivos desechables 3M 1100 y 1110, este último con cordón, fabricados en espuma de poliuretano hipoalergénica. Están diseñados para brindar protección auditiva eficaz e higiénica en ambientes donde los niveles de ruido superan los 85 dB(A). Su diseño cónico permite ajuste cómodo para la mayoría de canales auditivos.",
     "features": [
@@ -722,7 +722,7 @@ export const products: Product[] = [
     "brand": "3M",
     "price": null,
     "availability": "Disponible",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_18df7419a-1779252722563.png",
+    "image": "/assets/images/RESPIRADOR_12_CARA_3M_6200_(SIN FILTROS).png",
     "shortDescription": "Media máscara reutilizable 3M 6200 para protección respiratoria contra partículas, gases o vapores al utilizar filtros compatibles.",
     "description": "La media máscara reutilizable 3M Serie 6000 es un respirador elastomérico diseñado para brindar protección respiratoria contra partículas, gases y vapores cuando se utiliza con filtros compatibles de la serie 3M. Su diseño ligero y ergonómico proporciona comodidad durante jornadas prolongadas de trabajo.",
     "features": [
@@ -771,7 +771,7 @@ export const products: Product[] = [
     "brand": "3M",
     "price": null,
     "availability": "Disponible",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_18df7419a-1779252722563.png",
+    "image": "/assets/images/FILTRO_3M_PARA_GASES_Y_VAPORES_3M_6003.png",
     "shortDescription": "Cartucho químico 3M 6003 para respiradores 3M, diseñado para ciertos vapores orgánicos y gases ácidos.",
     "description": "El cartucho 3M 6003 es un filtro químico para protección respiratoria diseñado para utilizarse con respiradores elastoméricos 3M de las series 6000, 7000 y FF-400. Proporciona protección contra ciertos vapores orgánicos y gases ácidos como cloro, cloruro de hidrógeno, dióxido de azufre, fluoruro de hidrógeno y sulfuro de hidrógeno. Su diseño trapezoidal mejora la distribución del peso y comodidad durante el uso.",
     "features": [
@@ -821,7 +821,7 @@ export const products: Product[] = [
     "brand": "No especificada",
     "price": null,
     "availability": "Disponible",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_12e845811-1779252722026.png",
+    "image": "/assets/images/CUBRE_CUELLO_CON_CINTA_REFLECTIVA.png",
     "shortDescription": "Cubre cuello reflectivo para casco, diseñado para proteger cuello y nuca contra exposición solar y mejorar la visibilidad del trabajador.",
     "description": "Cubre cuello con cinta reflectiva diseñado para proteger el cuello del trabajador contra la exposición solar y rayos UV. Se instala fácilmente en el casco y ayuda a reducir el estrés térmico al proporcionar sombra y ventilación durante la jornada laboral.",
     "features": [
@@ -869,7 +869,7 @@ export const products: Product[] = [
     "brand": "ABUS",
     "price": null,
     "availability": "Disponible",
-    "image": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4",
+    "image": "/assets/images/CANDADO_LOTO_DE_ALUMINIO_DETECTABLE_40MM_ABUS_7240HB40.png",
     "shortDescription": "Candado de seguridad ABUS tipo Lockout/Tagout de 40 mm, con cuerpo de aluminio resistente y colores para identificación visual.",
     "description": "Candado de seguridad tipo Lockout/Tagout ABUS 72/40HB40 diseñado para aplicaciones industriales y procedimientos de bloqueo de energía. Está fabricado con cuerpo de aluminio TITALIUM de alta resistencia al calor y a la corrosión, ideal para identificación visual mediante colores y bloqueo seguro de equipos e interruptores.",
     "features": [
@@ -917,7 +917,7 @@ export const products: Product[] = [
     "brand": "ABUS",
     "price": null,
     "availability": "Disponible",
-    "image": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4",
+    "image": "/assets/images/ETIQUETA_PEQUEÑA_DE_BLOQUEO_PAQ_100UNDS_ABUS.png",
     "shortDescription": "Etiqueta LOTO ABUS en polipropileno resistente, ideal para identificar equipos bloqueados durante labores de mantenimiento.",
     "description": "Etiqueta de bloqueo LOTO fabricada en polipropileno de alta resistencia, diseñada para identificar equipos bloqueados durante labores de mantenimiento. Permite registrar advertencias, instrucciones, nombres de trabajadores o departamentos para mejorar la seguridad operativa. Incluye caja dispensadora reutilizable para almacenamiento y acceso rápido.",
     "features": [
@@ -964,7 +964,7 @@ export const products: Product[] = [
     "brand": "INSAFE",
     "price": null,
     "availability": "Bajo pedido",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_1c424ba22-1766150689334.png",
+    "image": "/assets/images/ARNÉS_4_ARGOLLAS_CON_SOPORTE_LUMBAR.png",
     "shortDescription": "Arnés de cuerpo completo INSAFE con 4 argollas y soporte lumbar ergonómico para trabajos prolongados en altura.",
     "description": "Arnés de cuerpo completo INSAFE diseñado para sistemas personales de detención de caídas, posicionamiento, restricción y ascenso/descenso controlado. Fabricado en reata de poliéster de alta tenacidad con soporte lumbar ergonómico para brindar mayor comodidad durante trabajos prolongados en altura.",
     "features": [
@@ -1014,7 +1014,7 @@ export const products: Product[] = [
     "brand": "INSAFE",
     "price": null,
     "availability": "Bajo pedido",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_1c424ba22-1766150689334.png",
+    "image": "/assets/images/ARNÉS_4_ARGOLLAS_EN_X.png",
     "shortDescription": "Arnés de cuerpo completo INSAFE en diseño X con 4 argollas, fabricado en reata de poliéster de alta tenacidad para trabajos en altura.",
     "description": "Arnés de cuerpo completo INSAFE diseñado para sistemas personales de detención de caídas, posicionamiento, restricción y ascenso/descenso controlado. Su diseño ergonómico en X ofrece seguridad, resistencia y comodidad para labores en altura.",
     "features": [
@@ -1117,7 +1117,7 @@ export const products: Product[] = [
     "brand": "INSAFE",
     "price": null,
     "availability": "Bajo pedido",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_13037b4bd-1779252721831.png",
+    "image": "/assets/images/ESLINGA_DE_POSICIONAMIENTO_EN_REATA_REGULABLE.png",
     "shortDescription": "Eslinga de posicionamiento regulable en reata de poliéster, con ganchos de acero para mantener al trabajador en posición segura.",
     "description": "Eslinga fabricada en reata de poliéster de alta tenacidad con longitud regulable. Está diseñada para labores de posicionamiento y restricción de desplazamiento en trabajos en altura, proporcionando seguridad, estabilidad y facilidad de ajuste.",
     "features": [
@@ -1167,7 +1167,7 @@ export const products: Product[] = [
     "brand": "INSAFE",
     "price": null,
     "availability": "Bajo pedido",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_13037b4bd-1779252721831.png",
+    "image": "/assets/images/ANCLAJE_REGULABLE_DE_UNA_ARGOLLA_1.8M.png",
     "shortDescription": "Anclaje regulable de 1.8 m en reata de poliéster con argolla de acero, diseñado para puntos de anclaje portátiles en trabajos en altura.",
     "description": "Anclaje fabricado en reata de poliéster de alta tenacidad con tratamiento ignífugo y una argolla en acero. Permite ajustar la longitud mediante hebilla para adaptarse a diferentes puntos de anclaje y brindar seguridad y resistencia en trabajos en alturas.",
     "features": [
@@ -1217,7 +1217,7 @@ export const products: Product[] = [
     "brand": "INSAFE",
     "price": null,
     "availability": "Bajo pedido",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_13037b4bd-1779252721831.png",
+    "image": "/assets/images/ANCLAJE_DIELÉCTRICO_REGULABLE_DE_UNA ARGOLLA_1,8M.png",
     "shortDescription": "Anclaje dieléctrico regulable de 1.8 m para trabajos en altura con necesidad de aislamiento eléctrico.",
     "description": "Elemento de protección contra caídas fabricado en reata dieléctrica de poliéster, diseñado para ser utilizado como punto de anclaje portátil. Su longitud es ajustable mediante hebilla reguladora y está destinado a trabajos en estructuras, mantenimiento eléctrico, postes, torres y otras aplicaciones donde se requiere aislamiento eléctrico y protección contra caídas.",
     "features": [
@@ -1268,7 +1268,7 @@ export const products: Product[] = [
     "brand": "INSAFE",
     "price": null,
     "availability": "Bajo pedido",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_13037b4bd-1779252721831.png",
+    "image": "/assets/images/LÍNEA_DE_VIDA_VERTICAL_EN_CUERDA TRENZADA_14MM_30_MT.png",
     "shortDescription": "Línea de vida vertical de 30 m en cuerda trenzada semiestática de 14 mm, con dispositivo deslizante de detención de caídas.",
     "description": "Línea de vida vertical fabricada en cuerda trenzada semiestática de 14 mm de diámetro, diseñada para brindar protección contra caídas durante trabajos en altura. Incluye dispositivo deslizante que se desplaza a lo largo de la cuerda y se bloquea automáticamente en caso de caída, permitiendo desplazamiento seguro del usuario.",
     "features": [
@@ -1318,7 +1318,7 @@ export const products: Product[] = [
     "brand": "INSAFE",
     "price": null,
     "availability": "Bajo pedido",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_13037b4bd-1779252721831.png",
+    "image": "/assets/images/ESLINGA_SENCILLA_CON_ABSORBEDOR_Y_GANCHOS_MIXTOS.png",
     "shortDescription": "Eslinga sencilla con absorbedor de energía y ganchos mixtos, diseñada para sistemas personales de detención de caídas.",
     "description": "Elemento de detención de caídas diseñado para formar parte de un sistema personal de protección contra caídas. Incorpora absorbedor de energía que limita la fuerza de impacto durante una caída y está equipado con gancho de 2 1/4 pulgadas y gancho de 3/4 pulgadas para conexión segura a distintos puntos de anclaje.",
     "features": [
@@ -1370,7 +1370,7 @@ export const products: Product[] = [
     "brand": "INSAFE",
     "price": null,
     "availability": "Bajo pedido",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_13037b4bd-1779252721831.png",
+    "image": "/assets/images/ESLINGA_EN_Y_CON_ABSORBEDOR.png",
     "shortDescription": "Eslinga en Y con absorbedor de energía para mantener conexión continua durante desplazamientos entre puntos de anclaje.",
     "description": "Elemento de detención de caídas diseñado para integrarse a un sistema personal de protección contra caídas. Su configuración en Y permite al usuario permanecer conectado al sistema de anclaje mientras realiza desplazamientos entre diferentes puntos de conexión. Incorpora absorbedor de energía que reduce la fuerza de impacto en caso de caída.",
     "features": [
@@ -1422,7 +1422,7 @@ export const products: Product[] = [
     "brand": "YOKE",
     "price": null,
     "availability": "Bajo pedido",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_13037b4bd-1779252721831.png",
+    "image": "/assets/images/FRENO_ARRESTADOR_AUTOMÁTICO_PARA CUERDA_DE_12_A_14 MM.png",
     "shortDescription": "Arrestador automático para cuerda de 12 a 14 mm, con bloqueo automático y función antipánico para líneas de vida verticales.",
     "description": "Dispositivo móvil de detención de caídas diseñado para desplazarse sobre una línea de vida vertical de cuerda. Se bloquea automáticamente en caso de caída, deteniendo el descenso del usuario. Su función antipánico evita el deslizamiento cuando el usuario acciona incorrectamente el equipo durante una emergencia.",
     "features": [
@@ -1470,7 +1470,7 @@ export const products: Product[] = [
     "brand": "YOKE",
     "price": null,
     "availability": "Bajo pedido",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_13037b4bd-1779252721831.png",
+    "image": "/assets/images/MOSQUETÓN_CARABINERO_3_SEGUROS AUTOMÁTICO_8.8_OZ.250G.png",
     "shortDescription": "Conector metálico automático de 3 seguros, fabricado en acero aleado galvanizado para sistemas personales de protección contra caídas.",
     "description": "Conector metálico diseñado para formar parte de sistemas personales de protección contra caídas. Fabricado en acero aleado de alta resistencia con acabado galvanizado, cuenta con sistema de cierre y bloqueo automático que proporciona conexión rápida y segura entre componentes del sistema anticaídas.",
     "features": [
@@ -1520,7 +1520,7 @@ export const products: Product[] = [
     "brand": "3M",
     "price": null,
     "availability": "Disponible",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_10638ea13-1779252722532.png",
+    "image": "/assets/images/CINTA_ANTIDERRAPANTE_NEGRA_3M_ADHESIVA 2X60_PIES.png",
     "shortDescription": "Cinta antideslizante 3M Safety-Walk negra, adhesiva, diseñada para mejorar la tracción y reducir resbalones en escaleras, rampas y áreas industriales.",
     "description": "Cinta antideslizante 3M Safety-Walk diseñada para reducir el riesgo de resbalones y caídas en superficies de tránsito peatonal e industrial. Está compuesta por partículas abrasivas adheridas a una película resistente con adhesivo sensible a la presión, proporcionando alta tracción en superficies secas, húmedas o con presencia moderada de contaminantes.",
     "features": [
@@ -1573,7 +1573,7 @@ export const products: Product[] = [
     "brand": "No especificada",
     "price": null,
     "availability": "Disponible",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_10638ea13-1779252722532.png",
+    "image": "/assets/images/ROLLO_CINTA_DE_PRECAUCIÓN_3X1000_YARDAS _MARILLO.png",
     "shortDescription": "Cinta de precaución amarilla de 3 pulgadas x 1000 yardas para señalización temporal y delimitación preventiva de áreas.",
     "description": "Cinta de precaución para señalización temporal, diseñada para delimitar áreas de trabajo, zonas de riesgo moderado, mantenimiento, limpieza y control de acceso. Su color amarillo de alta visibilidad con la leyenda PRECAUCIÓN permite alertar a las personas sobre posibles peligros y mantener una circulación segura.",
     "features": [
@@ -1620,7 +1620,7 @@ export const products: Product[] = [
     "brand": "No especificada",
     "price": null,
     "availability": "Disponible",
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_10638ea13-1779252722532.png",
+    "image": "/assets/images/ROLLO_CINTA_DE_PELIGRO_ROJA_3X1000_YARDAS_ROJA.png",
     "shortDescription": "Cinta de peligro roja de 3 pulgadas x 1000 yardas para delimitar áreas restringidas, riesgos y accesos no autorizados.",
     "description": "Cinta de peligro para señalización temporal, diseñada para delimitar áreas restringidas, zonas de riesgo, trabajos de construcción, mantenimiento y situaciones de emergencia. Su color rojo de alta visibilidad con la leyenda PELIGRO permite advertir claramente sobre presencia de riesgos y restringir el acceso a personal no autorizado.",
     "features": [
@@ -1668,7 +1668,7 @@ export const products: Product[] = [
     "brand": "WEARWELL",
     "price": null,
     "availability": "Disponible",
-    "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758",
+    "image": "/assets/images/ALFOMBRA_ERGONÓMICA_ANTIFATIGA_1516_DE 3'X5'_WEARWELL.png",
     "shortDescription": "Alfombra antifatiga Wearwell con superficie Diamond-Plate y bordes amarillos, diseñada para reducir la fatiga en puestos donde el personal permanece de pie.",
     "description": "Alfombra antifatiga Wearwell SMART Diamond-Plate Black with Yellow Borders, diseñada para reducir la fatiga de trabajadores que permanecen de pie durante largos períodos. Fabricada con superficie de PVC y base de espuma de uretano reciclado, ofrece comodidad, resistencia y una solución económica y ecológica para áreas de trabajo secas.",
     "features": [
@@ -1871,7 +1871,7 @@ export const riskFilters: Array<{ id: RiskType; label: string; icon: string }> =
   { id: "ergonomia", label: "Ergonomía", icon: "Activity" },
 ];
 
-export const WHATSAPP_NUMBER = "50499999999";
+export const WHATSAPP_NUMBER = "50487921620";
 
 export function buildWhatsAppUrl(productName?: string): string {
   const message = productName

@@ -73,31 +73,31 @@ export default function Footer() {
             <p className="text-white/40 text-xs font-bold uppercase tracking-widest mb-4">Contacto</p>
             <div className="flex flex-col gap-3">
               <a
-                href="https://wa.me/50499999999"
+                href={buildWhatsAppUrl()}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-white/70 hover:text-white text-sm font-medium transition-colors"
               >
                 <Icon name="MessageCircle" size={14} className="text-accent flex-shrink-0" />
-                +504 9999-9999
+                (504) 8792-1620
               </a>
               <a
-                href="tel:+50422222222"
+                href="tel:+50487921620"
                 className="flex items-center gap-2 text-white/70 hover:text-white text-sm font-medium transition-colors"
               >
                 <Icon name="Phone" size={14} className="text-accent flex-shrink-0" />
-                +504 2222-2222
+                (504) 8792-1620
               </a>
               <a
-                href="mailto:info@seguridadhn.com"
+                href="mailto:cotizaciones@csihonduras.com"
                 className="flex items-center gap-2 text-white/70 hover:text-white text-sm font-medium transition-colors"
               >
                 <Icon name="Mail" size={14} className="text-accent flex-shrink-0" />
-                info@seguridadhn.com
+                cotizaciones@csihonduras.com
               </a>
               <span className="flex items-center gap-2 text-white/60 text-sm">
                 <Icon name="MapPin" size={14} className="text-accent flex-shrink-0" />
-                Tegucigalpa, Honduras
+                Honduras
               </span>
             </div>
           </div>

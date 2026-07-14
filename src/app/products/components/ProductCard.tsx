@@ -15,14 +15,18 @@ export default function ProductCard({ product, onViewDetail }: ProductCardProps)
   return (
     <div className="product-card group flex flex-col h-full">
       {/* Image */}
-      <div className="relative h-48 overflow-hidden cursor-pointer" onClick={() => onViewDetail(product)}>
-        <AppImage
-          src={product.image}
-          alt={`${product.name} - ${product.category}, producto industrial sobre fondo neutro`}
-          fill
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
-        />
+      <div className="relative h-48 overflow-hidden cursor-pointer bg-white" onClick={() => onViewDetail(product)}>
+        <div className="absolute inset-4 top-8">
+          <AppImage
+            src={product.image}
+            alt={`${product.name} - ${product.category}, producto industrial sobre fondo neutro`}
+            fill
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            className="w-full h-full group-hover:scale-105 transition-transform duration-500"
+            style={{ objectFit: 'contain' }}
+          />
+        </div>
+        <div className="absolute inset-x-0 top-0 h-20 bg-gradient-to-b from-slate-950/58 via-slate-900/26 to-transparent" />
         {/* Availability */}
         <div className="absolute top-3 left-3">
           <span className={product.availability === 'Disponible' ? 'badge-available' : 'badge-order'}>
@@ -31,7 +35,7 @@ export default function ProductCard({ product, onViewDetail }: ProductCardProps)
           </span>
         </div>
         <div className="absolute top-3 right-3">
-          <span className="bg-primary/90 text-white text-xs font-bold px-2 py-0.5 rounded-full">
+          <span className="inline-flex max-w-[150px] items-center rounded-full bg-primary px-2.5 py-1 text-right text-[11px] font-extrabold leading-tight text-white shadow-lg ring-1 ring-white/35">
             {product.category}
           </span>
         </div>

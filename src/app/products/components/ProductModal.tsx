@@ -61,21 +61,25 @@ export default function ProductModal({ product, onClose }: ProductModalProps) {
 
         <div className="p-6">
           {/* Image */}
-          <div className="relative h-56 sm:h-72 rounded-2xl overflow-hidden mb-6">
-            <AppImage
-              src={product.image}
-              alt={`${product.name} - vista detallada del producto, sobre fondo claro y bien iluminado`}
-              fill
-              sizes="(max-width: 640px) 100vw, 672px"
-              className="object-cover w-full h-full"
-              priority
-            />
+          <div className="relative h-56 sm:h-72 rounded-2xl overflow-hidden mb-6 bg-white">
+            <div className="absolute inset-5 top-12">
+              <AppImage
+                src={product.image}
+                alt={`${product.name} - vista detallada del producto, sobre fondo claro y bien iluminado`}
+                fill
+                sizes="(max-width: 640px) 100vw, 672px"
+                className="w-full h-full"
+                style={{ objectFit: 'contain' }}
+                priority
+              />
+            </div>
+            <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-slate-950/58 via-slate-900/25 to-transparent" />
             <div className="absolute top-4 left-4 flex gap-2">
               <span className={product.availability === 'Disponible' ? 'badge-available' : 'badge-order'}>
                 <span className={`w-1.5 h-1.5 rounded-full inline-block ${product.availability === 'Disponible' ? 'bg-green-500' : 'bg-yellow-500'}`} />
                 {product.availability}
               </span>
-              <span className="bg-primary/90 text-white text-xs font-bold px-2 py-0.5 rounded-full">
+              <span className="inline-flex max-w-[260px] items-center rounded-full bg-primary px-2.5 py-1 text-xs font-extrabold leading-tight text-white shadow-lg ring-1 ring-white/35">
                 {product.category}
               </span>
             </div>

@@ -25,7 +25,7 @@ const benefits = [
   {
     icon: 'Truck',
     title: 'Entregas a nivel nacional',
-    description: 'Enviamos a todo Honduras — Tegucigalpa, San Pedro Sula, La Ceiba y departamentos del interior.',
+    description: 'Enviamos a todo Honduras.',
     color: 'bg-blue-100 text-blue-700',
   },
 ];

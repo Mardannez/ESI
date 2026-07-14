@@ -151,13 +151,16 @@ function RelatedCard({ product }: {product: Product;}) {
       href={`/products/${product.id}`}
       className="group block bg-card rounded-lg border border-border overflow-hidden hover:shadow-md transition-all duration-300 hover:-translate-y-1">
       
-      <div className="relative h-40 overflow-hidden bg-muted">
-        <AppImage
-          src={product.image}
-          alt={`${product.name} - ${product.category}, equipo de seguridad industrial`}
-          fill
-          sizes="(max-width: 640px) 50vw, 200px"
-          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300" />
+      <div className="relative h-40 overflow-hidden bg-white">
+        <div className="absolute inset-3">
+          <AppImage
+            src={product.image}
+            alt={`${product.name} - ${product.category}, equipo de seguridad industrial`}
+            fill
+            sizes="(max-width: 640px) 50vw, 200px"
+            className="w-full h-full group-hover:scale-105 transition-transform duration-300"
+            style={{ objectFit: 'contain' }} />
+        </div>
         
         {product.availability === 'Disponible' &&
         <div className="absolute top-2 left-2">
@@ -239,16 +242,19 @@ export default function ProductDetails({ product, relatedProducts }: ProductDeta
           {/* Main image */}
           <div className="relative bg-card rounded-lg overflow-hidden border border-border shadow-sm">
             <div
-              className="relative w-full aspect-square cursor-zoom-in"
+              className="relative h-[520px] w-full cursor-zoom-in bg-white sm:h-[640px] lg:h-[680px]"
               onClick={() => setZoomed(true)}>
               
-              <AppImage
-                src={images[activeImg]}
-                alt={`${product.name} - vista principal del producto, equipo de seguridad industrial`}
-                fill
-                sizes="(max-width: 1024px) 100vw, 568px"
-                className="object-cover w-full h-full transition-transform duration-300 hover:scale-105"
-                priority />
+              <div className="absolute inset-3 sm:inset-5">
+                <AppImage
+                  src={images[activeImg]}
+                  alt={`${product.name} - vista principal del producto, equipo de seguridad industrial`}
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 568px"
+                  className="w-full h-full transition-transform duration-300 hover:scale-105"
+                  style={{ objectFit: 'contain' }}
+                  priority />
+              </div>
               
               {/* Prev/Next */}
               {images.length > 1 &&
@@ -295,7 +301,8 @@ export default function ProductDetails({ product, relatedProducts }: ProductDeta
                 alt={`${product.name} - miniatura ${i + 1}`}
                 fill
                 sizes="80px"
-                className="object-cover w-full h-full" />
+                className="w-full h-full"
+                style={{ objectFit: 'contain' }} />
               
               </button>
             )}
@@ -541,14 +548,17 @@ export default function ProductDetails({ product, relatedProducts }: ProductDeta
         aria-modal="true"
         aria-label="Imagen ampliada">
         
-          <div className="relative w-full max-w-2xl aspect-square rounded-xl overflow-hidden shadow-2xl">
-            <AppImage
-            src={images[activeImg]}
-            alt={`${product.name} - imagen ampliada`}
-            fill
-            sizes="(max-width: 768px) 100vw, 672px"
-            className="object-contain"
-            priority />
+          <div className="relative h-[88vh] w-full max-w-5xl rounded-xl overflow-hidden bg-white p-4 shadow-2xl sm:p-6">
+            <div className="relative h-full w-full">
+              <AppImage
+              src={images[activeImg]}
+              alt={`${product.name} - imagen ampliada`}
+              fill
+              sizes="(max-width: 768px) 100vw, 1024px"
+              className="h-full w-full"
+              style={{ objectFit: 'contain' }}
+              priority />
+            </div>
           
           </div>
           <button

@@ -11,28 +11,28 @@ const contactInfo = [
   {
     icon: 'MessageCircle',
     label: 'WhatsApp',
-    value: '+504 9999-9999',
-    href: 'https://wa.me/50499999999',
+    value: '(504) 8792-1620',
+    href: 'https://wa.me/50487921620',
     color: 'bg-green-100 text-green-700',
   },
   {
     icon: 'Phone',
     label: 'Teléfono',
-    value: '+504 2222-2222',
-    href: 'tel:+50422222222',
+    value: '(504) 8792-1620',
+    href: 'tel:+50487921620',
     color: 'bg-primary/10 text-primary',
   },
   {
     icon: 'Mail',
     label: 'Correo electrónico',
-    value: 'info@seguridadhn.com',
-    href: 'mailto:info@seguridadhn.com',
+    value: 'cotizaciones@csihonduras.com',
+    href: 'mailto:cotizaciones@csihonduras.com',
     color: 'bg-accent/20 text-amber-700',
   },
   {
     icon: 'MapPin',
     label: 'Ubicación',
-    value: 'Col. Palmira, Tegucigalpa, Honduras',
+    value: 'Honduras',
     href: '#',
     color: 'bg-blue-100 text-blue-700',
   },
@@ -193,7 +193,7 @@ export default function ContactPage() {
                           required
                           value={form.phone}
                           onChange={(e) => setForm({ ...form, phone: e.target.value })}
-                          placeholder="+504 9999-9999"
+                          placeholder="(504) 8792-1620"
                           className="w-full px-4 py-3 text-sm border border-border rounded-xl bg-background focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all"
                         />
                       </div>
