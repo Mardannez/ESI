@@ -144,7 +144,7 @@ export default function ProductFilters({ filters, onChange, totalResults }: Prod
           Disponibilidad
         </label>
         <div className="flex flex-col gap-2">
-          {['', 'Disponible', 'Bajo pedido'].map((opt) => (
+          {['', 'Disponible'].map((opt) => (
             <label key={opt} className="flex items-center gap-2 cursor-pointer group">
               <input
                 type="radio"

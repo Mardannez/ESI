@@ -42,7 +42,7 @@ export default function Header() {
 
   return (
     <header
-      className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-white/95 shadow-sm backdrop-blur-md"
+      className="fixed top-0 left-0 right-0 z-[1000] border-b border-border bg-white shadow-sm"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
         {/* Logo */}
@@ -95,7 +95,7 @@ export default function Header() {
       </div>
       {/* Mobile Menu Overlay */}
       {menuOpen && (
-        <div className="md:hidden fixed inset-0 top-16 z-40 bg-white/95 backdrop-blur-md border-t border-border flex flex-col">
+        <div className="md:hidden fixed left-0 right-0 top-16 bottom-0 z-[1001] bg-white border-t border-border shadow-xl flex flex-col sm:top-20">
           <nav className="flex flex-col p-6 gap-2">
             {navLinks?.map((link) => (
               <Link
