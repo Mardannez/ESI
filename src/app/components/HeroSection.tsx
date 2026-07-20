@@ -52,21 +52,23 @@ export default function HeroSection() {
 
   return (
     <section className="relative overflow-hidden bg-[#05080b] pt-16 text-white sm:pt-20">
-      <div className="relative h-[calc(100vh-4rem)] min-h-[620px] sm:h-[calc(100vh-5rem)] sm:min-h-[560px]">
-        {heroSlides.map((slide, index) => (
-          <div
-            key={slide.image}
-            role="img"
-            aria-label={slide.alt}
-            style={{ backgroundImage: `url("${slide.image}")` }}
-            className={`absolute inset-0 bg-[length:100%_auto] bg-top bg-no-repeat transition-opacity duration-1000 ease-out sm:bg-contain sm:bg-center lg:bg-fixed ${
-              index === activeSlide ? 'opacity-100' : 'opacity-0'
-            }`}
-            aria-hidden={index !== activeSlide}
-          />
-        ))}
+      <div className="relative min-h-[590px] pb-6 sm:h-[calc(100vh-5rem)] sm:min-h-[560px] sm:pb-0">
+        <div className="relative aspect-[16/9] w-full sm:absolute sm:inset-0 sm:aspect-auto">
+          {heroSlides.map((slide, index) => (
+            <div
+              key={slide.image}
+              role="img"
+              aria-label={slide.alt}
+              style={{ backgroundImage: `url("${slide.image}")` }}
+              className={`absolute inset-0 bg-contain bg-top bg-no-repeat transition-opacity duration-1000 ease-out sm:bg-center lg:bg-fixed ${
+                index === activeSlide ? 'opacity-100' : 'opacity-0'
+              }`}
+              aria-hidden={index !== activeSlide}
+            />
+          ))}
+        </div>
 
-        <div className="absolute bottom-10 left-1/2 z-10 flex w-[calc(100%-2rem)] max-w-7xl -translate-x-1/2 flex-col gap-5 px-4 sm:bottom-8 sm:px-6">
+        <div className="relative z-10 mx-auto mt-5 flex w-full max-w-7xl flex-col gap-5 px-6 sm:absolute sm:bottom-8 sm:left-1/2 sm:mt-0 sm:w-[calc(100%-2rem)] sm:-translate-x-1/2 sm:px-6">
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-end lg:pr-28">
             <Link href="/products" className="btn-accent w-full px-7 py-4 text-base sm:w-auto">
               <Icon name="ShoppingBag" size={18} className="text-accent-foreground" />
