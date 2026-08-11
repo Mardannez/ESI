@@ -155,7 +155,7 @@ function RelatedCard({ product }: {product: Product;}) {
         <div className="absolute inset-3">
           <AppImage
             src={product.image}
-            alt={`${product.name} - ${product.category}, equipo de seguridad industrial`}
+            alt={`${product.name} - SKU ${product.code}, ${product.category}`}
             fill
             sizes="(max-width: 640px) 50vw, 200px"
             className="w-full h-full group-hover:scale-105 transition-transform duration-300"
@@ -248,7 +248,7 @@ export default function ProductDetails({ product, relatedProducts }: ProductDeta
               <div className="absolute inset-3 sm:inset-5">
                 <AppImage
                   src={images[activeImg]}
-                  alt={`${product.name} - vista principal del producto, equipo de seguridad industrial`}
+                  alt={`${product.name} - SKU ${product.code}, vista principal del producto`}
                   fill
                   sizes="(max-width: 1024px) 100vw, 568px"
                   className="w-full h-full transition-transform duration-300 hover:scale-105"
@@ -298,7 +298,7 @@ export default function ProductDetails({ product, relatedProducts }: ProductDeta
               
                 <AppImage
                 src={img}
-                alt={`${product.name} - miniatura ${i + 1}`}
+                alt={`${product.name} - SKU ${product.code}, miniatura ${i + 1}`}
                 fill
                 sizes="80px"
                 className="w-full h-full"
@@ -552,7 +552,7 @@ export default function ProductDetails({ product, relatedProducts }: ProductDeta
             <div className="relative h-full w-full">
               <AppImage
               src={images[activeImg]}
-              alt={`${product.name} - imagen ampliada`}
+              alt={`${product.name} - SKU ${product.code}, imagen ampliada`}
               fill
               sizes="(max-width: 768px) 100vw, 1024px"
               className="h-full w-full"

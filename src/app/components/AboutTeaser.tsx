@@ -7,9 +7,9 @@ import Icon from '@/components/ui/AppIcon';
 import { buildWhatsAppUrl } from '@/data/products';
 
 const stats = [
-{ value: '10+', label: 'Años de experiencia' },
-{ value: '500+', label: 'Productos disponibles' },
-{ value: '200+', label: 'Empresas clientes' },
+{ value: '2+', label: 'Años de experiencia' },
+{ value: '50+', label: 'Productos disponibles' },
+{ value: '10+', label: 'Empresas clientes' },
 { value: '18', label: 'Departamentos atendidos' }];
 
 

@@ -65,7 +65,7 @@ export default function ProductModal({ product, onClose }: ProductModalProps) {
             <div className="absolute inset-5 top-12">
               <AppImage
                 src={product.image}
-                alt={`${product.name} - vista detallada del producto, sobre fondo claro y bien iluminado`}
+                alt={`${product.name} - SKU ${product.code}, vista detallada del producto`}
                 fill
                 sizes="(max-width: 640px) 100vw, 672px"
                 className="w-full h-full"

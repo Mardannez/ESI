@@ -19,7 +19,7 @@ export default function ProductCard({ product, onViewDetail }: ProductCardProps)
         <div className="absolute inset-4 top-8">
           <AppImage
             src={product.image}
-            alt={`${product.name} - ${product.category}, producto industrial sobre fondo neutro`}
+            alt={`${product.name} - SKU ${product.code}, ${product.category}`}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             className="w-full h-full group-hover:scale-105 transition-transform duration-500"

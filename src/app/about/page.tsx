@@ -41,9 +41,9 @@ const values = [
 
 
 const stats = [
-{ value: '10+', label: 'Años en el mercado', icon: 'Calendar' },
-{ value: '500+', label: 'Productos en catálogo', icon: 'Package' },
-{ value: '200+', label: 'Empresas clientes', icon: 'Building2' },
+{ value: '2+', label: 'Años en el mercado', icon: 'Calendar' },
+{ value: '50+', label: 'Productos en catálogo', icon: 'Package' },
+{ value: '10+', label: 'Empresas clientes', icon: 'Building2' },
 { value: '18', label: 'Departamentos atendidos', icon: 'MapPin' }];
 
 

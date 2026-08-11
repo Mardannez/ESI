@@ -15,6 +15,7 @@ export interface Product {
   availability: ProductAvailability;
   image: string;
   images?: string[];
+  sourceUrl?: string;
   shortDescription: string;
   description: string;
   features: string[];
@@ -465,7 +466,7 @@ export const products: Product[] = [
     "brand": "Ansell",
     "price": null,
     "availability": "Disponible",
-    "image": "/assets/images/MANGA_100%_KEVLAR_DUPONT_CORTES_ALTAS _TEMPERATURAS.png",
+    "image": "/assets/images/MANGA_100_PORCIENTO_KEVLAR_DUPONT_CORTES_ALTAS_TEMPERATURAS.png",
     "shortDescription": "Manga de protección con fibras Kevlar Dupont para proteger brazos y antebrazos contra cortes, abrasión y quemaduras leves.",
     "description": "Manga de protección fabricada con fibras de Kevlar, diseñada para brindar protección mecánica contra cortes, abrasión y quemaduras leves en brazos y antebrazos. Es ideal para manipulación de materiales afilados donde se requiere comodidad, flexibilidad y libertad de movimiento.",
     "features": [
@@ -1703,6 +1704,1406 @@ export const products: Product[] = [
     ],
     "cta": "Solicita cotización del Alfombra ergonómica antifatiga 15/16 pulgadas de 3 x 5 pies Wearwell y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
     "featured": false
+  },
+  {
+    "id": 34,
+    "code": "S21TX",
+    "name": "Dexterity Pro™ S21TX",
+    "originalName": "Dexterity Pro™ S21TX",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Corte - industria alimenticia",
+    "riskTypes": [
+      "corte"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/S21TX.webp",
+    "shortDescription": "Guante ultrafino de máxima protección contra cortes, diseñado para conservar una excelente destreza y sensibilidad.",
+    "description": "Guante ultrafino de máxima protección contra cortes, diseñado para conservar una excelente destreza y sensibilidad. Su tejido TenActiv™ brinda protección de 360° con resistencia al corte ANSI A9. Es apto para manipulación de alimentos y puede utilizarse como guante principal o como forro en tareas que requieren precisión.",
+    "features": [
+      "Aplicación principal: Corte - industria alimenticia.",
+      "Guante ultrafino de máxima protección contra cortes, diseñado para conservar una excelente destreza y sensibilidad.",
+      "Su tejido TenActiv™ brinda protección de 360° con resistencia al corte ANSI A9.",
+      "Es apto para manipulación de alimentos y puede utilizarse como guante principal o como forro en tareas que requieren precisión."
+    ],
+    "applications": [
+      "Corte - industria alimenticia"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Dexterity Pro™ S21TX",
+      "S21TX",
+      "Superior Glove",
+      "Corte - industria alimenticia"
+    ],
+    "cta": "Solicita cotización de Dexterity Pro™ S21TX y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/dexterity-pros21tx/"
+  },
+  {
+    "id": 35,
+    "code": "S21TA",
+    "name": "Dexterity Pro™ S21TA",
+    "originalName": "Dexterity Pro™ S21TA",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Corte - industria alimenticia",
+    "riskTypes": [
+      "corte"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/S21TA.webp",
+    "shortDescription": "Guante ultrafino y cómodo, con protección contra cortes ANSI A5 y amplia libertad de movimiento.",
+    "description": "Guante ultrafino y cómodo, con protección contra cortes ANSI A5 y amplia libertad de movimiento. Adecuado para manipulación de materiales, mantenimiento y procesamiento de alimentos. Su construcción favorece la sensibilidad táctil y permite utilizar pantallas táctiles sin necesidad de retirar el guante.",
+    "features": [
+      "Aplicación principal: Corte - industria alimenticia.",
+      "Guante ultrafino y cómodo, con protección contra cortes ANSI A5 y amplia libertad de movimiento.",
+      "Adecuado para manipulación de materiales, mantenimiento y procesamiento de alimentos.",
+      "Su construcción favorece la sensibilidad táctil y permite utilizar pantallas táctiles sin necesidad de retirar el guante."
+    ],
+    "applications": [
+      "Corte - industria alimenticia"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Dexterity Pro™ S21TA",
+      "S21TA",
+      "Superior Glove",
+      "Corte - industria alimenticia"
+    ],
+    "cta": "Solicita cotización de Dexterity Pro™ S21TA y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/dexterity-pro-s21ta/"
+  },
+  {
+    "id": 36,
+    "code": "S10SXBDB",
+    "name": "TenActiv Pro™ S10SXBDB",
+    "originalName": "TenActiv Pro™ S10SXBDB",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Corte - carnicería / deshuese",
+    "riskTypes": [
+      "corte"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/S10SXBDB.webp",
+    "shortDescription": "Guante especializado para procesamiento de carne y trabajos de deshuese, con protección extrema contra cortes ANSI A8 y refuerzos laterales resistentes a perforaciones.",
+    "description": "Guante especializado para procesamiento de carne y trabajos de deshuese, con protección extrema contra cortes ANSI A8 y refuerzos laterales resistentes a perforaciones. Está orientado a tareas exigentes con cuchillos y bordes afilados, donde se necesita una combinación de protección, control y durabilidad.",
+    "features": [
+      "Aplicación principal: Corte - carnicería / deshuese.",
+      "Guante especializado para procesamiento de carne y trabajos de deshuese, con protección extrema contra cortes ANSI A8 y refuerzos laterales resistentes a perforaciones.",
+      "Está orientado a tareas exigentes con cuchillos y bordes afilados, donde se necesita una combinación de protección, control y durabilidad."
+    ],
+    "applications": [
+      "Corte - carnicería / deshuese"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "TenActiv Pro™ S10SXBDB",
+      "S10SXBDB",
+      "Superior Glove",
+      "Corte - carnicería / deshuese"
+    ],
+    "cta": "Solicita cotización de TenActiv Pro™ S10SXBDB y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/tenactiv-pro-s10sxbdb/"
+  },
+  {
+    "id": 37,
+    "code": "S21TAXRFN",
+    "name": "Dexterity Pro™ S21TAXRFN",
+    "originalName": "Dexterity Pro™ S21TAXRFN",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Corte, alimentos, pantallas táctiles y ESD",
+    "riskTypes": [
+      "corte"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/S21TAXRFN.webp",
+    "shortDescription": "Guante ultrafino con protección contra cortes ANSI A5 y propiedades disipativas electrostáticas (ESD), apropiado para tareas con componentes electrónicos sensibles.",
+    "description": "Guante ultrafino con protección contra cortes ANSI A5 y propiedades disipativas electrostáticas (ESD), apropiado para tareas con componentes electrónicos sensibles. El recubrimiento de nitrilo espumado mejora el agarre en condiciones húmedas. También es compatible con pantallas táctiles y apto para manipulación de alimentos.",
+    "features": [
+      "Aplicación principal: Corte, alimentos, pantallas táctiles y ESD.",
+      "Guante ultrafino con protección contra cortes ANSI A5 y propiedades disipativas electrostáticas (ESD), apropiado para tareas con componentes electrónicos sensibles.",
+      "El recubrimiento de nitrilo espumado mejora el agarre en condiciones húmedas.",
+      "También es compatible con pantallas táctiles y apto para manipulación de alimentos."
+    ],
+    "applications": [
+      "Corte, alimentos, pantallas táctiles y ESD"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Dexterity Pro™ S21TAXRFN",
+      "S21TAXRFN",
+      "Superior Glove",
+      "Corte, alimentos, pantallas táctiles y ESD"
+    ],
+    "cta": "Solicita cotización de Dexterity Pro™ S21TAXRFN y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/dexterity-pro-s21taxrfn/"
+  },
+  {
+    "id": 38,
+    "code": "678KTA",
+    "name": "Endura® 678KTA",
+    "originalName": "Endura® 678KTA",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Guante multiusos",
+    "riskTypes": [],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/678KTA.webp",
+    "shortDescription": "Guante de cuero descarne sin forro para trabajos generales que requieren buena sensibilidad y movilidad de la mano.",
+    "description": "Guante de cuero descarne sin forro para trabajos generales que requieren buena sensibilidad y movilidad de la mano. El cuero ayuda a absorber líquidos para favorecer el agarre y ofrece resistencia a perforaciones ANSI nivel 5. Una opción versátil para manipulación de materiales y tareas de mantenimiento.",
+    "features": [
+      "Aplicación principal: Guante multiusos.",
+      "Guante de cuero descarne sin forro para trabajos generales que requieren buena sensibilidad y movilidad de la mano.",
+      "El cuero ayuda a absorber líquidos para favorecer el agarre y ofrece resistencia a perforaciones ANSI nivel 5.",
+      "Una opción versátil para manipulación de materiales y tareas de mantenimiento."
+    ],
+    "applications": [
+      "Guante multiusos"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Endura® 678KTA",
+      "678KTA",
+      "Superior Glove",
+      "Guante multiusos"
+    ],
+    "cta": "Solicita cotización de Endura® 678KTA y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/endura-678kta/"
+  },
+  {
+    "id": 39,
+    "code": "S13SXBHZ",
+    "name": "TenActiv Pro™ S13SXBHZ",
+    "originalName": "TenActiv Pro™ S13SXBHZ",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Corte - cocina / procesamiento de alimentos",
+    "riskTypes": [
+      "corte"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/S13SXBHZ.webp",
+    "shortDescription": "Guante para procesamiento de alimentos y pesca, con alta protección contra cortes ANSI A6.",
+    "description": "Guante para procesamiento de alimentos y pesca, con alta protección contra cortes ANSI A6. Su diseño incorpora tratamiento antimicrobiano y está pensado para entornos donde se manipulan cuchillas y alimentos. Se comercializa en versiones para mano izquierda y derecha, ofreciendo protección especializada para tareas de cocina y procesamiento.",
+    "features": [
+      "Aplicación principal: Corte - cocina / procesamiento de alimentos.",
+      "Guante para procesamiento de alimentos y pesca, con alta protección contra cortes ANSI A6.",
+      "Su diseño incorpora tratamiento antimicrobiano y está pensado para entornos donde se manipulan cuchillas y alimentos.",
+      "Se comercializa en versiones para mano izquierda y derecha, ofreciendo protección especializada para tareas de cocina y procesamiento."
+    ],
+    "applications": [
+      "Corte - cocina / procesamiento de alimentos"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "TenActiv Pro™ S13SXBHZ",
+      "S13SXBHZ",
+      "Superior Glove",
+      "Corte - cocina / procesamiento de alimentos"
+    ],
+    "cta": "Solicita cotización de TenActiv Pro™ S13SXBHZ y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/tenactiv-pro-s13sxbhz/"
+  },
+  {
+    "id": 40,
+    "code": "S21TAXRFNB",
+    "name": "Dexterity Pro™ S21TAXRFNB",
+    "originalName": "Dexterity Pro™ S21TAXRFNB",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Corte + impacto",
+    "riskTypes": [
+      "corte"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/S21TAXRFNB.webp",
+    "shortDescription": "Guante ultrafino con protección contra cortes ANSI A5 y protección contra impactos ANSI/ISEA 138 nivel 1 mediante protectores de perfil bajo.",
+    "description": "Guante ultrafino con protección contra cortes ANSI A5 y protección contra impactos ANSI/ISEA 138 nivel 1 mediante protectores de perfil bajo. Su recubrimiento de nitrilo espumado proporciona agarre en húmedo y conserva una gran destreza. Es compatible con pantallas táctiles para facilitar el trabajo sin interrupciones.",
+    "features": [
+      "Aplicación principal: Corte + impacto.",
+      "Guante ultrafino con protección contra cortes ANSI A5 y protección contra impactos ANSI/ISEA 138 nivel 1 mediante protectores de perfil bajo.",
+      "Su recubrimiento de nitrilo espumado proporciona agarre en húmedo y conserva una gran destreza.",
+      "Es compatible con pantallas táctiles para facilitar el trabajo sin interrupciones."
+    ],
+    "applications": [
+      "Corte + impacto"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Dexterity Pro™ S21TAXRFNB",
+      "S21TAXRFNB",
+      "Superior Glove",
+      "Corte + impacto"
+    ],
+    "cta": "Solicita cotización de Dexterity Pro™ S21TAXRFNB y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/products/dexterity-pro-s21taxrfnb/"
+  },
+  {
+    "id": 41,
+    "code": "KPW18TH",
+    "name": "KnitActiv Pro™ KPW - variante KPW18TH",
+    "originalName": "KnitActiv Pro™ KPW - variante KPW18TH",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Corte - protección de brazos",
+    "riskTypes": [
+      "corte"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/KPW18TH.webp",
+    "shortDescription": "Manga de protección para brazos fabricada con material reciclado y diseñada para brindar protección contra cortes de 360° ANSI A2.",
+    "description": "Manga de protección para brazos fabricada con material reciclado y diseñada para brindar protección contra cortes de 360° ANSI A2. La variante KPW18TH tiene 18 pulgadas de longitud, formato tubular y orificio para el pulgar, ayudando a mantener la cobertura durante tareas de manipulación y ensamblaje.",
+    "features": [
+      "Aplicación principal: Corte - protección de brazos.",
+      "Manga de protección para brazos fabricada con material reciclado y diseñada para brindar protección contra cortes de 360° ANSI A2.",
+      "La variante KPW18TH tiene 18 pulgadas de longitud, formato tubular y orificio para el pulgar, ayudando a mantener la cobertura durante tareas de manipulación y ensamblaje."
+    ],
+    "applications": [
+      "Corte - protección de brazos"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "KnitActiv Pro™ KPW - variante KPW18TH",
+      "KPW18TH",
+      "Superior Glove",
+      "Corte - protección de brazos"
+    ],
+    "cta": "Solicita cotización de KnitActiv Pro™ KPW - variante KPW18TH y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/knitactiv-pro-kpw/"
+  },
+  {
+    "id": 42,
+    "code": "KTAG18TH",
+    "name": "TenActiv Pro™ KTAG - variante KTAG18TH",
+    "originalName": "TenActiv Pro™ KTAG - variante KTAG18TH",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Corte - protección de brazos",
+    "riskTypes": [
+      "corte"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/KTAG18TH.webp",
+    "shortDescription": "Manga tubular de alta resistencia contra cortes, diseñada para protección prolongada del brazo.",
+    "description": "Manga tubular de alta resistencia contra cortes, diseñada para protección prolongada del brazo. El tejido TenActiv™ ofrece protección de 360° con resistencia al corte ANSI A6. La variante KTAG18TH mide 18 pulgadas e incorpora orificio para el pulgar para mejorar la estabilidad y cobertura durante el trabajo.",
+    "features": [
+      "Aplicación principal: Corte - protección de brazos.",
+      "Manga tubular de alta resistencia contra cortes, diseñada para protección prolongada del brazo.",
+      "El tejido TenActiv™ ofrece protección de 360° con resistencia al corte ANSI A6.",
+      "La variante KTAG18TH mide 18 pulgadas e incorpora orificio para el pulgar para mejorar la estabilidad y cobertura durante el trabajo."
+    ],
+    "applications": [
+      "Corte - protección de brazos"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "TenActiv Pro™ KTAG - variante KTAG18TH",
+      "KTAG18TH",
+      "Superior Glove",
+      "Corte - protección de brazos"
+    ],
+    "cta": "Solicita cotización de TenActiv Pro™ KTAG - variante KTAG18TH y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/tenactiv-pro-ktag/"
+  },
+  {
+    "id": 43,
+    "code": "TCKVLO",
+    "name": "ParaActiv™ TCKVLO",
+    "originalName": "ParaActiv™ TCKVLO",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Calor + corte",
+    "riskTypes": [
+      "corte",
+      "termico"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/TCKVLO.webp",
+    "shortDescription": "Guante tejido para trabajos con exposición a calor y riesgo de corte.",
+    "description": "Guante tejido para trabajos con exposición a calor y riesgo de corte. Ofrece resistencia al corte ANSI A4 y protección térmica ANSI nivel 4. Su puño tejido extendido aumenta la cobertura, mientras que la mezcla de algodón ayuda a absorber grasa y aceite para mejorar el control durante la manipulación.",
+    "features": [
+      "Aplicación principal: Calor + corte.",
+      "Guante tejido para trabajos con exposición a calor y riesgo de corte.",
+      "Ofrece resistencia al corte ANSI A4 y protección térmica ANSI nivel 4.",
+      "Su puño tejido extendido aumenta la cobertura, mientras que la mezcla de algodón ayuda a absorber grasa y aceite para mejorar el control durante la manipulación."
+    ],
+    "applications": [
+      "Calor + corte"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "ParaActiv™ TCKVLO",
+      "TCKVLO",
+      "Superior Glove",
+      "Calor + corte"
+    ],
+    "cta": "Solicita cotización de ParaActiv™ TCKVLO y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/paraactiv-tckvlo/"
+  },
+  {
+    "id": 44,
+    "code": "TK835LG2",
+    "name": "ParaActiv Pro™ TK835LG2",
+    "originalName": "ParaActiv Pro™ TK835LG2",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Calor + corte",
+    "riskTypes": [
+      "corte",
+      "termico"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/TK835LG2.webp",
+    "shortDescription": "Guante de alta protección térmica para trabajos exigentes, con resistencia al corte ANSI A5 y al calor ANSI nivel 5.",
+    "description": "Guante de alta protección térmica para trabajos exigentes, con resistencia al corte ANSI A5 y al calor ANSI nivel 5. Incorpora puño de cuero de 4 pulgadas para mayor cobertura y un forro interior de algodón que aporta comodidad durante jornadas prolongadas.",
+    "features": [
+      "Aplicación principal: Calor + corte.",
+      "Guante de alta protección térmica para trabajos exigentes, con resistencia al corte ANSI A5 y al calor ANSI nivel 5.",
+      "Incorpora puño de cuero de 4 pulgadas para mayor cobertura y un forro interior de algodón que aporta comodidad durante jornadas prolongadas."
+    ],
+    "applications": [
+      "Calor + corte"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "ParaActiv Pro™ TK835LG2",
+      "TK835LG2",
+      "Superior Glove",
+      "Calor + corte"
+    ],
+    "cta": "Solicita cotización de ParaActiv Pro™ TK835LG2 y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/paraactiv-pro-tk835lg2/"
+  },
+  {
+    "id": 45,
+    "code": "TRFGK",
+    "name": "ParaActiv Pro™ TRFGK",
+    "originalName": "ParaActiv Pro™ TRFGK",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Calor + corte - metal",
+    "riskTypes": [
+      "corte",
+      "termico"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/TRFGK.webp",
+    "shortDescription": "Guante diseñado para fabricación y manipulación de metal caliente, con resistencia al corte ANSI A5 y protección térmica ANSI nivel 5.",
+    "description": "Guante diseñado para fabricación y manipulación de metal caliente, con resistencia al corte ANSI A5 y protección térmica ANSI nivel 5. Su construcción tejida de alto desempeño y el puño extendido ayudan a brindar cobertura adicional en tareas donde se combinan calor, bordes afilados y materiales pesados.",
+    "features": [
+      "Aplicación principal: Calor + corte - metal.",
+      "Guante diseñado para fabricación y manipulación de metal caliente, con resistencia al corte ANSI A5 y protección térmica ANSI nivel 5.",
+      "Su construcción tejida de alto desempeño y el puño extendido ayudan a brindar cobertura adicional en tareas donde se combinan calor, bordes afilados y materiales pesados."
+    ],
+    "applications": [
+      "Calor + corte - metal"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "ParaActiv Pro™ TRFGK",
+      "TRFGK",
+      "Superior Glove",
+      "Calor + corte - metal"
+    ],
+    "cta": "Solicita cotización de ParaActiv Pro™ TRFGK y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/paraactiv-pro-trfgk/"
+  },
+  {
+    "id": 46,
+    "code": "NS300B",
+    "name": "SolvStop™ NS300B",
+    "originalName": "SolvStop™ NS300B",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Cuartos fríos - hasta -5 °C",
+    "riskTypes": [
+      "termico"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/NS300B.webp",
+    "shortDescription": "Guante impermeable de PVC de alta visibilidad para manipulación de alimentos, limpieza y tareas en ambientes fríos.",
+    "description": "Guante impermeable de PVC de alta visibilidad para manipulación de alimentos, limpieza y tareas en ambientes fríos. Mantiene flexibilidad a temperaturas de hasta aproximadamente -5 °C y brinda una barrera frente a líquidos, facilitando el trabajo en áreas húmedas y cámaras de refrigeración.",
+    "features": [
+      "Aplicación principal: Cuartos fríos - hasta -5 °C.",
+      "Guante impermeable de PVC de alta visibilidad para manipulación de alimentos, limpieza y tareas en ambientes fríos.",
+      "Mantiene flexibilidad a temperaturas de hasta aproximadamente -5 °C y brinda una barrera frente a líquidos, facilitando el trabajo en áreas húmedas y cámaras de refrigeración."
+    ],
+    "applications": [
+      "Cuartos fríos - hasta -5 °C"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "SolvStop™ NS300B",
+      "NS300B",
+      "Superior Glove",
+      "Cuartos fríos - hasta -5 °C"
+    ],
+    "cta": "Solicita cotización de SolvStop™ NS300B y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/solvstop-ns300b/"
+  },
+  {
+    "id": 47,
+    "code": "NS230PU",
+    "name": "SolvStop™ NS230PU",
+    "originalName": "SolvStop™ NS230PU",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Cuartos fríos - hasta -15 °C",
+    "riskTypes": [
+      "termico"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/NS230PU.webp",
+    "shortDescription": "Guante totalmente recubierto de poliuretano, impermeable y diseñado para conservar flexibilidad en frío hasta aproximadamente -15 °C.",
+    "description": "Guante totalmente recubierto de poliuretano, impermeable y diseñado para conservar flexibilidad en frío hasta aproximadamente -15 °C. Su color naranja de alta visibilidad facilita la identificación de las manos. Adecuado para cámaras frías, manipulación de materiales y trabajos donde se requiere protección frente a humedad.",
+    "features": [
+      "Aplicación principal: Cuartos fríos - hasta -15 °C.",
+      "Guante totalmente recubierto de poliuretano, impermeable y diseñado para conservar flexibilidad en frío hasta aproximadamente -15 °C.",
+      "Su color naranja de alta visibilidad facilita la identificación de las manos.",
+      "Adecuado para cámaras frías, manipulación de materiales y trabajos donde se requiere protección frente a humedad."
+    ],
+    "applications": [
+      "Cuartos fríos - hasta -15 °C"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "SolvStop™ NS230PU",
+      "NS230PU",
+      "Superior Glove",
+      "Cuartos fríos - hasta -15 °C"
+    ],
+    "cta": "Solicita cotización de SolvStop™ NS230PU y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/solvstop-ns230pu/"
+  },
+  {
+    "id": 48,
+    "code": "505KGWS",
+    "name": "Endura Pro™ 505KGWS",
+    "originalName": "Endura Pro™ 505KGWS",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Soldadura",
+    "riskTypes": [
+      "termico"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/505KGWS.webp",
+    "shortDescription": "Guante de soldadura con electrodo diseñado para proteger frente a calor y riesgos de corte.",
+    "description": "Guante de soldadura con electrodo diseñado para proteger frente a calor y riesgos de corte. El forro ParaActiv™ aporta resistencia al corte ANSI A5 y protección térmica ANSI nivel 2. El puño largo tipo guantelete extiende la cobertura hacia muñeca y antebrazo durante los trabajos de soldadura.",
+    "features": [
+      "Aplicación principal: Soldadura.",
+      "Guante de soldadura con electrodo diseñado para proteger frente a calor y riesgos de corte.",
+      "El forro ParaActiv™ aporta resistencia al corte ANSI A5 y protección térmica ANSI nivel 2.",
+      "El puño largo tipo guantelete extiende la cobertura hacia muñeca y antebrazo durante los trabajos de soldadura."
+    ],
+    "applications": [
+      "Soldadura"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Endura Pro™ 505KGWS",
+      "505KGWS",
+      "Superior Glove",
+      "Soldadura"
+    ],
+    "cta": "Solicita cotización de Endura Pro™ 505KGWS y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/endura-pro-505kgws/"
+  },
+  {
+    "id": 49,
+    "code": "505BU",
+    "name": "Endura® 505BU",
+    "originalName": "Endura® 505BU",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Soldadura",
+    "riskTypes": [
+      "termico"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/505BU.webp",
+    "shortDescription": "Guante de soldadura con electrodo, resistente al calor y con puño tipo guantelete extendido.",
+    "description": "Guante de soldadura con electrodo, resistente al calor y con puño tipo guantelete extendido. Ofrece protección térmica ANSI nivel 2 y ayuda a proteger manos y antebrazos frente a chispas, calor y abrasión. Una alternativa práctica para trabajos generales de soldadura y fabricación.",
+    "features": [
+      "Aplicación principal: Soldadura.",
+      "Guante de soldadura con electrodo, resistente al calor y con puño tipo guantelete extendido.",
+      "Ofrece protección térmica ANSI nivel 2 y ayuda a proteger manos y antebrazos frente a chispas, calor y abrasión.",
+      "Una alternativa práctica para trabajos generales de soldadura y fabricación."
+    ],
+    "applications": [
+      "Soldadura"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Endura® 505BU",
+      "505BU",
+      "Superior Glove",
+      "Soldadura"
+    ],
+    "cta": "Solicita cotización de Endura® 505BU y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/endura-505bu/"
+  },
+  {
+    "id": 50,
+    "code": "399GKGL5",
+    "name": "Endura® 399GKGL5",
+    "originalName": "Endura® 399GKGL5",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Soldadura",
+    "riskTypes": [
+      "termico"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/399GKGL5.webp",
+    "shortDescription": "Guante versátil de piel de cabra para fabricación y soldadura MIG.",
+    "description": "Guante versátil de piel de cabra para fabricación y soldadura MIG. Ofrece protección frente a arco eléctrico CAT 4, resistencia al corte ANSI A4 y protección térmica ANSI nivel 3. Su puño de guantelete extendido aumenta la cobertura, manteniendo una buena combinación de movilidad y resistencia.",
+    "features": [
+      "Aplicación principal: Soldadura.",
+      "Guante versátil de piel de cabra para fabricación y soldadura MIG.",
+      "Ofrece protección frente a arco eléctrico CAT 4, resistencia al corte ANSI A4 y protección térmica ANSI nivel 3.",
+      "Su puño de guantelete extendido aumenta la cobertura, manteniendo una buena combinación de movilidad y resistencia."
+    ],
+    "applications": [
+      "Soldadura"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Endura® 399GKGL5",
+      "399GKGL5",
+      "Superior Glove",
+      "Soldadura"
+    ],
+    "cta": "Solicita cotización de Endura® 399GKGL5 y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/endura-399gkgl5/"
+  },
+  {
+    "id": 51,
+    "code": "CG0SKT",
+    "name": "Endura® CG0SKT",
+    "originalName": "Endura® CG0SKT",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Riesgo eléctrico - protector de cuero",
+    "riskTypes": [],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/CG0SKT.webp",
+    "shortDescription": "Guante protector de cuero diseñado para utilizarse sobre guantes dieléctricos Line Pro de Clase 00 y Clase 0.",
+    "description": "Guante protector de cuero diseñado para utilizarse sobre guantes dieléctricos Line Pro de Clase 00 y Clase 0. Incorpora pulgar tipo keystone y correa ajustable de nylon, aportando protección mecánica al guante aislante sin sacrificar el ajuste necesario para tareas eléctricas.",
+    "features": [
+      "Aplicación principal: Riesgo eléctrico - protector de cuero.",
+      "Guante protector de cuero diseñado para utilizarse sobre guantes dieléctricos Line Pro de Clase 00 y Clase 0.",
+      "Incorpora pulgar tipo keystone y correa ajustable de nylon, aportando protección mecánica al guante aislante sin sacrificar el ajuste necesario para tareas eléctricas."
+    ],
+    "applications": [
+      "Riesgo eléctrico - protector de cuero"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Endura® CG0SKT",
+      "CG0SKT",
+      "Superior Glove",
+      "Riesgo eléctrico - protector de cuero"
+    ],
+    "cta": "Solicita cotización de Endura® CG0SKT y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/endura-cg0skt/"
+  },
+  {
+    "id": 52,
+    "code": "NR00B28",
+    "name": "Line Pro™ NR00B28",
+    "originalName": "Line Pro™ NR00B28",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Riesgo eléctrico - Clase 00",
+    "riskTypes": [],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/NR00B28.webp",
+    "shortDescription": "Guante dieléctrico de caucho Clase 00 conforme a ANSI/ASTM D120, destinado a protección frente a tensión de uso de hasta 500 V.",
+    "description": "Guante dieléctrico de caucho Clase 00 conforme a ANSI/ASTM D120, destinado a protección frente a tensión de uso de hasta 500 V. Para proteger el caucho contra daños mecánicos se recomienda utilizarlo con un guante protector de cuero compatible, como el Endura® CG0SKT.",
+    "features": [
+      "Aplicación principal: Riesgo eléctrico - Clase 00.",
+      "Guante dieléctrico de caucho Clase 00 conforme a ANSI/ASTM D120, destinado a protección frente a tensión de uso de hasta 500 V.",
+      "Para proteger el caucho contra daños mecánicos se recomienda utilizarlo con un guante protector de cuero compatible, como el Endura® CG0SKT."
+    ],
+    "applications": [
+      "Riesgo eléctrico - Clase 00"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Line Pro™ NR00B28",
+      "NR00B28",
+      "Superior Glove",
+      "Riesgo eléctrico - Clase 00"
+    ],
+    "cta": "Solicita cotización de Line Pro™ NR00B28 y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/line-pro-nr00b28/"
+  },
+  {
+    "id": 53,
+    "code": "NR0B28",
+    "name": "Line Pro™ NR0B28",
+    "originalName": "Line Pro™ NR0B28",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Riesgo eléctrico - Clase 0",
+    "riskTypes": [],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/NR0B28.webp",
+    "shortDescription": "Guante dieléctrico de caucho Clase 0 conforme a ANSI/ASTM D120, diseñado para trabajos eléctricos con tensión de uso de hasta 1.000 V.",
+    "description": "Guante dieléctrico de caucho Clase 0 conforme a ANSI/ASTM D120, diseñado para trabajos eléctricos con tensión de uso de hasta 1.000 V. Se recomienda combinarlo con un protector exterior de cuero compatible, como el Endura® CG0SKT, para preservar la integridad del guante aislante.",
+    "features": [
+      "Aplicación principal: Riesgo eléctrico - Clase 0.",
+      "Guante dieléctrico de caucho Clase 0 conforme a ANSI/ASTM D120, diseñado para trabajos eléctricos con tensión de uso de hasta 1.000 V.",
+      "Se recomienda combinarlo con un protector exterior de cuero compatible, como el Endura® CG0SKT, para preservar la integridad del guante aislante."
+    ],
+    "applications": [
+      "Riesgo eléctrico - Clase 0"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Line Pro™ NR0B28",
+      "NR0B28",
+      "Superior Glove",
+      "Riesgo eléctrico - Clase 0"
+    ],
+    "cta": "Solicita cotización de Line Pro™ NR0B28 y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/line-pro-nr0b28/"
+  },
+  {
+    "id": 54,
+    "code": "CG1SS",
+    "name": "Endura® CG1SS",
+    "originalName": "Endura® CG1SS",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Riesgo eléctrico - protector de cuero",
+    "riskTypes": [],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/CG1SS.webp",
+    "shortDescription": "Guante protector de cuero diseñado para utilizarse sobre guantes dieléctricos Line Pro Clase 1, especialmente el NR1BR36.",
+    "description": "Guante protector de cuero diseñado para utilizarse sobre guantes dieléctricos Line Pro Clase 1, especialmente el NR1BR36. Cuenta con pulgar tipo keystone y correa negra ajustable, combinando durabilidad, destreza y ajuste. Su función es proteger mecánicamente el guante aislante utilizado debajo.",
+    "features": [
+      "Aplicación principal: Riesgo eléctrico - protector de cuero.",
+      "Guante protector de cuero diseñado para utilizarse sobre guantes dieléctricos Line Pro Clase 1, especialmente el NR1BR36.",
+      "Cuenta con pulgar tipo keystone y correa negra ajustable, combinando durabilidad, destreza y ajuste.",
+      "Su función es proteger mecánicamente el guante aislante utilizado debajo."
+    ],
+    "applications": [
+      "Riesgo eléctrico - protector de cuero"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Endura® CG1SS",
+      "CG1SS",
+      "Superior Glove",
+      "Riesgo eléctrico - protector de cuero"
+    ],
+    "cta": "Solicita cotización de Endura® CG1SS y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/products/endura-cg1ss/"
+  },
+  {
+    "id": 55,
+    "code": "NR1BR36",
+    "name": "Line Pro™ NR1BR36",
+    "originalName": "Line Pro™ NR1BR36",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Riesgo eléctrico - Clase 1",
+    "riskTypes": [],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/NR1BR36.webp",
+    "shortDescription": "Guante dieléctrico de caucho Clase 1 conforme a ANSI/ASTM D120, para riesgos eléctricos con tensión de uso de hasta 7.500 V.",
+    "description": "Guante dieléctrico de caucho Clase 1 conforme a ANSI/ASTM D120, para riesgos eléctricos con tensión de uso de hasta 7.500 V. Su combinación de capas roja y negra facilita detectar daños. Debe complementarse con un protector de cuero adecuado, como el Endura® CG1SS.",
+    "features": [
+      "Aplicación principal: Riesgo eléctrico - Clase 1.",
+      "Guante dieléctrico de caucho Clase 1 conforme a ANSI/ASTM D120, para riesgos eléctricos con tensión de uso de hasta 7.500 V.",
+      "Su combinación de capas roja y negra facilita detectar daños.",
+      "Debe complementarse con un protector de cuero adecuado, como el Endura® CG1SS."
+    ],
+    "applications": [
+      "Riesgo eléctrico - Clase 1"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Line Pro™ NR1BR36",
+      "NR1BR36",
+      "Superior Glove",
+      "Riesgo eléctrico - Clase 1"
+    ],
+    "cta": "Solicita cotización de Line Pro™ NR1BR36 y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/line-pro-nr1br36/"
+  },
+  {
+    "id": 56,
+    "code": "NR2BR36",
+    "name": "Line Pro™ NR2BR36",
+    "originalName": "Line Pro™ NR2BR36",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Riesgo eléctrico - Clase 2",
+    "riskTypes": [],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/NR2BR36.webp",
+    "shortDescription": "Guante dieléctrico de caucho Clase 2 conforme a ANSI/ASTM D120, diseñado para trabajos eléctricos con tensión de uso de hasta 17.000 V.",
+    "description": "Guante dieléctrico de caucho Clase 2 conforme a ANSI/ASTM D120, diseñado para trabajos eléctricos con tensión de uso de hasta 17.000 V. El contraste de colores facilita identificar daños en la superficie. Debe utilizarse con el protector de cuero correspondiente según el sistema de protección eléctrica.",
+    "features": [
+      "Aplicación principal: Riesgo eléctrico - Clase 2.",
+      "Guante dieléctrico de caucho Clase 2 conforme a ANSI/ASTM D120, diseñado para trabajos eléctricos con tensión de uso de hasta 17.000 V.",
+      "El contraste de colores facilita identificar daños en la superficie.",
+      "Debe utilizarse con el protector de cuero correspondiente según el sistema de protección eléctrica."
+    ],
+    "applications": [
+      "Riesgo eléctrico - Clase 2"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Line Pro™ NR2BR36",
+      "NR2BR36",
+      "Superior Glove",
+      "Riesgo eléctrico - Clase 2"
+    ],
+    "cta": "Solicita cotización de Line Pro™ NR2BR36 y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/line-pro-nr2br36/"
+  },
+  {
+    "id": 57,
+    "code": "LF3020",
+    "name": "SolvStop™ LF3020",
+    "originalName": "SolvStop™ LF3020",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Químicos + alimentos",
+    "riskTypes": [
+      "quimico"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/LF3020.webp",
+    "shortDescription": "Guante de látex de 18 mil para protección química y tareas de mantenimiento en la industria alimentaria.",
+    "description": "Guante de látex de 18 mil para protección química y tareas de mantenimiento en la industria alimentaria. Su longitud brinda cobertura adicional del antebrazo y la palma texturizada mejora el agarre. Está diseñado para manipulación de alimentos y trabajos donde existe exposición a líquidos y determinadas sustancias químicas.",
+    "features": [
+      "Aplicación principal: Químicos + alimentos.",
+      "Guante de látex de 18 mil para protección química y tareas de mantenimiento en la industria alimentaria.",
+      "Su longitud brinda cobertura adicional del antebrazo y la palma texturizada mejora el agarre.",
+      "Está diseñado para manipulación de alimentos y trabajos donde existe exposición a líquidos y determinadas sustancias químicas."
+    ],
+    "applications": [
+      "Químicos + alimentos"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "SolvStop™ LF3020",
+      "LF3020",
+      "Superior Glove",
+      "Químicos + alimentos"
+    ],
+    "cta": "Solicita cotización de SolvStop™ LF3020 y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/solvstop-lf3020/"
+  },
+  {
+    "id": 58,
+    "code": "NI3012",
+    "name": "SolvStop™ NI3012",
+    "originalName": "SolvStop™ NI3012",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Químicos - nitrilo + alimentos",
+    "riskTypes": [
+      "quimico"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/NI3012.webp",
+    "shortDescription": "Guante de nitrilo de 12 mil y aproximadamente 30 cm de longitud, diseñado para resistir una amplia variedad de químicos y solventes, incluidos aceites, combustibles y metanol.",
+    "description": "Guante de nitrilo de 12 mil y aproximadamente 30 cm de longitud, diseñado para resistir una amplia variedad de químicos y solventes, incluidos aceites, combustibles y metanol. La palma texturizada favorece un agarre firme y el producto es apto para tareas de manipulación de alimentos.",
+    "features": [
+      "Aplicación principal: Químicos - nitrilo + alimentos.",
+      "Guante de nitrilo de 12 mil y aproximadamente 30 cm de longitud, diseñado para resistir una amplia variedad de químicos y solventes, incluidos aceites, combustibles y metanol.",
+      "La palma texturizada favorece un agarre firme y el producto es apto para tareas de manipulación de alimentos."
+    ],
+    "applications": [
+      "Químicos - nitrilo + alimentos"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "SolvStop™ NI3012",
+      "NI3012",
+      "Superior Glove",
+      "Químicos - nitrilo + alimentos"
+    ],
+    "cta": "Solicita cotización de SolvStop™ NI3012 y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/solvstop-ni3012/"
+  },
+  {
+    "id": 59,
+    "code": "RDCNPF",
+    "name": "KeepKleen® RDCNPF",
+    "originalName": "KeepKleen® RDCNPF",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Desechable - industria + alimentos",
+    "riskTypes": [],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/RDCNPF.webp",
+    "shortDescription": "Guante desechable de nitrilo azul de 4 mil, sin polvo, diseñado para ofrecer alta sensibilidad táctil y facilitar la detección visual de contaminación.",
+    "description": "Guante desechable de nitrilo azul de 4 mil, sin polvo, diseñado para ofrecer alta sensibilidad táctil y facilitar la detección visual de contaminación. El puño enrollado ayuda a aumentar la resistencia al desgarro. Es apto para manipulación de alimentos y tareas industriales que requieren higiene y precisión.",
+    "features": [
+      "Aplicación principal: Desechable - industria + alimentos.",
+      "Guante desechable de nitrilo azul de 4 mil, sin polvo, diseñado para ofrecer alta sensibilidad táctil y facilitar la detección visual de contaminación.",
+      "El puño enrollado ayuda a aumentar la resistencia al desgarro.",
+      "Es apto para manipulación de alimentos y tareas industriales que requieren higiene y precisión."
+    ],
+    "applications": [
+      "Desechable - industria + alimentos"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "KeepKleen® RDCNPF",
+      "RDCNPF",
+      "Superior Glove",
+      "Desechable - industria + alimentos"
+    ],
+    "cta": "Solicita cotización de KeepKleen® RDCNPF y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/keepkleen-rdcnpf/"
+  },
+  {
+    "id": 60,
+    "code": "SM35TAX",
+    "name": "SolvStop Pro™ SM35TAX",
+    "originalName": "SolvStop Pro™ SM35TAX",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Corte + químicos + alimentos",
+    "riskTypes": [
+      "corte",
+      "quimico"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/SM35TAX.webp",
+    "shortDescription": "Guante flexible de TPE que combina resistencia química con protección contra cortes ANSI A6.",
+    "description": "Guante flexible de TPE que combina resistencia química con protección contra cortes ANSI A6. Su color azul favorece la detección visual de contaminación y está diseñado para trabajos de manipulación de alimentos. Brinda una alternativa de protección para tareas que requieren barrera frente a líquidos sin perder demasiada destreza.",
+    "features": [
+      "Aplicación principal: Corte + químicos + alimentos.",
+      "Guante flexible de TPE que combina resistencia química con protección contra cortes ANSI A6.",
+      "Su color azul favorece la detección visual de contaminación y está diseñado para trabajos de manipulación de alimentos.",
+      "Brinda una alternativa de protección para tareas que requieren barrera frente a líquidos sin perder demasiada destreza."
+    ],
+    "applications": [
+      "Corte + químicos + alimentos"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "SolvStop Pro™ SM35TAX",
+      "SM35TAX",
+      "Superior Glove",
+      "Corte + químicos + alimentos"
+    ],
+    "cta": "Solicita cotización de SolvStop Pro™ SM35TAX y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/solvstop-pro-sm35tax/"
+  },
+  {
+    "id": 61,
+    "code": "S10LXPB",
+    "name": "KnitActiv Pro™ S10LXPB",
+    "originalName": "KnitActiv Pro™ S10LXPB",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Corte + punción + alimentos",
+    "riskTypes": [
+      "corte"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/S10LXPB.webp",
+    "shortDescription": "Guante para manipulación de alimentos con protección frente a cortes y punzaduras.",
+    "description": "Guante para manipulación de alimentos con protección frente a cortes y punzaduras. La palma ofrece alta resistencia a punción ANSI nivel 5 y protección contra cortes ANSI A5. Su recubrimiento de látex mejora el agarre en condiciones secas y aporta control al manipular herramientas, recipientes y materiales.",
+    "features": [
+      "Aplicación principal: Corte + punción + alimentos.",
+      "Guante para manipulación de alimentos con protección frente a cortes y punzaduras.",
+      "La palma ofrece alta resistencia a punción ANSI nivel 5 y protección contra cortes ANSI A5.",
+      "Su recubrimiento de látex mejora el agarre en condiciones secas y aporta control al manipular herramientas, recipientes y materiales."
+    ],
+    "applications": [
+      "Corte + punción + alimentos"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "KnitActiv Pro™ S10LXPB",
+      "S10LXPB",
+      "Superior Glove",
+      "Corte + punción + alimentos"
+    ],
+    "cta": "Solicita cotización de KnitActiv Pro™ S10LXPB y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/knitactiv-pro-s10lxpb/"
+  },
+  {
+    "id": 62,
+    "code": "PS13TAXPUE",
+    "name": "TenActiv™ PS13TAXPUE",
+    "originalName": "TenActiv™ PS13TAXPUE",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Corte - opción económica",
+    "riskTypes": [
+      "corte"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/PS13TAXPUE.webp",
+    "shortDescription": "Guante de costo competitivo para protección moderada contra cortes ANSI A4.",
+    "description": "Guante de costo competitivo para protección moderada contra cortes ANSI A4. El recubrimiento de poliuretano en la palma proporciona buen agarre en seco y conserva la sensibilidad de la mano. Es compatible con pantallas táctiles y libre de látex, adecuado para montaje, manipulación y tareas generales de producción.",
+    "features": [
+      "Aplicación principal: Corte - opción económica.",
+      "Guante de costo competitivo para protección moderada contra cortes ANSI A4.",
+      "El recubrimiento de poliuretano en la palma proporciona buen agarre en seco y conserva la sensibilidad de la mano.",
+      "Es compatible con pantallas táctiles y libre de látex, adecuado para montaje, manipulación y tareas generales de producción."
+    ],
+    "applications": [
+      "Corte - opción económica"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "TenActiv™ PS13TAXPUE",
+      "PS13TAXPUE",
+      "Superior Glove",
+      "Corte - opción económica"
+    ],
+    "cta": "Solicita cotización de TenActiv™ PS13TAXPUE y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/tenactiv-ps13taxpue/"
+  },
+  {
+    "id": 63,
+    "code": "PS15TAXPNQ",
+    "name": "TenActiv Pro™ PS15TAXPNQ",
+    "originalName": "TenActiv Pro™ PS15TAXPNQ",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Corte - opción económica",
+    "riskTypes": [
+      "corte"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/PS15TAXPNQ.webp",
+    "shortDescription": "Guante económico de alta protección contra cortes ANSI A6, con recubrimiento de nitrilo microporoso.",
+    "description": "Guante económico de alta protección contra cortes ANSI A6, con recubrimiento de nitrilo microporoso. Ofrece agarre confiable en ambientes húmedos o aceitosos y mantiene una buena libertad de movimiento. Es libre de látex y está orientado a tareas industriales donde se busca protección elevada a un costo eficiente.",
+    "features": [
+      "Aplicación principal: Corte - opción económica.",
+      "Guante económico de alta protección contra cortes ANSI A6, con recubrimiento de nitrilo microporoso.",
+      "Ofrece agarre confiable en ambientes húmedos o aceitosos y mantiene una buena libertad de movimiento.",
+      "Es libre de látex y está orientado a tareas industriales donde se busca protección elevada a un costo eficiente."
+    ],
+    "applications": [
+      "Corte - opción económica"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "TenActiv Pro™ PS15TAXPNQ",
+      "PS15TAXPNQ",
+      "Superior Glove",
+      "Corte - opción económica"
+    ],
+    "cta": "Solicita cotización de TenActiv Pro™ PS15TAXPNQ y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/tenactiv-pro-ps15taxpnq/"
+  },
+  {
+    "id": 64,
+    "code": "76YBDQ",
+    "name": "Endura® 76YBDQ",
+    "originalName": "Endura® 76YBDQ",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Uso general / manipulación",
+    "riskTypes": [],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/76YBDQ.webp",
+    "shortDescription": "Guante tipo fitter de ajuste holgado, pensado para uso general durante jornadas prolongadas.",
+    "description": "Guante tipo fitter de ajuste holgado, pensado para uso general durante jornadas prolongadas. La palma de piel de vacuno aporta durabilidad, mientras que el forro de algodón transpirable ayuda a controlar la humedad y mejorar la comodidad. Adecuado para manipulación de materiales, carga, mantenimiento y labores generales.",
+    "features": [
+      "Aplicación principal: Uso general / manipulación.",
+      "Guante tipo fitter de ajuste holgado, pensado para uso general durante jornadas prolongadas.",
+      "La palma de piel de vacuno aporta durabilidad, mientras que el forro de algodón transpirable ayuda a controlar la humedad y mejorar la comodidad.",
+      "Adecuado para manipulación de materiales, carga, mantenimiento y labores generales."
+    ],
+    "applications": [
+      "Uso general / manipulación"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Endura® 76YBDQ",
+      "76YBDQ",
+      "Superior Glove",
+      "Uso general / manipulación"
+    ],
+    "cta": "Solicita cotización de Endura® 76YBDQ y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/endura-76ybdq/"
+  },
+  {
+    "id": 65,
+    "code": "STN336K",
+    "name": "KnitActiv™ STN336K",
+    "originalName": "KnitActiv™ STN336K",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Industria alimenticia / forro",
+    "riskTypes": [],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/STN336K.webp",
+    "shortDescription": "Guante de inspección suave, flexible y de alta destreza, diseñado para generar poca pelusa.",
+    "description": "Guante de inspección suave, flexible y de alta destreza, diseñado para generar poca pelusa. Su formato ambidiestro y lavable permite utilizarlo solo o como forro debajo de guantes desechables. Es apto para manipulación de alimentos y tareas donde se requiere limpieza, tacto y comodidad.",
+    "features": [
+      "Aplicación principal: Industria alimenticia / forro.",
+      "Guante de inspección suave, flexible y de alta destreza, diseñado para generar poca pelusa.",
+      "Su formato ambidiestro y lavable permite utilizarlo solo o como forro debajo de guantes desechables.",
+      "Es apto para manipulación de alimentos y tareas donde se requiere limpieza, tacto y comodidad."
+    ],
+    "applications": [
+      "Industria alimenticia / forro"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "KnitActiv™ STN336K",
+      "STN336K",
+      "Superior Glove",
+      "Industria alimenticia / forro"
+    ],
+    "cta": "Solicita cotización de KnitActiv™ STN336K y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/knitactiv-stn336k/"
+  },
+  {
+    "id": 66,
+    "code": "378A",
+    "name": "Endura® 378A",
+    "originalName": "Endura® 378A",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Uso general / manipulación",
+    "riskTypes": [],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/378A.webp",
+    "shortDescription": "Guante de cuero vacuno para uso general, apropiado para manipulación de materiales, construcción ligera y limpieza de obra.",
+    "description": "Guante de cuero vacuno para uso general, apropiado para manipulación de materiales, construcción ligera y limpieza de obra. El pulgar tipo keystone favorece la movilidad y la durabilidad, mientras que la muñeca elástica ayuda a mantener un ajuste cómodo y seguro durante el trabajo.",
+    "features": [
+      "Aplicación principal: Uso general / manipulación.",
+      "Guante de cuero vacuno para uso general, apropiado para manipulación de materiales, construcción ligera y limpieza de obra.",
+      "El pulgar tipo keystone favorece la movilidad y la durabilidad, mientras que la muñeca elástica ayuda a mantener un ajuste cómodo y seguro durante el trabajo."
+    ],
+    "applications": [
+      "Uso general / manipulación"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Endura® 378A",
+      "378A",
+      "Superior Glove",
+      "Uso general / manipulación"
+    ],
+    "cta": "Solicita cotización de Endura® 378A y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/endura-378a/"
+  },
+  {
+    "id": 67,
+    "code": "66Q",
+    "name": "Endura® 66Q",
+    "originalName": "Endura® 66Q",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Uso general / manipulación",
+    "riskTypes": [],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/66Q.webp",
+    "shortDescription": "Guante económico tipo fitter de cuero descarne y ajuste holgado.",
+    "description": "Guante económico tipo fitter de cuero descarne y ajuste holgado. La palma de cuero aporta durabilidad y ayuda a absorber líquidos para mejorar el agarre. El forro de algodón favorece la transpiración y el puño de seguridad facilita colocarlo y retirarlo en tareas generales de manipulación.",
+    "features": [
+      "Aplicación principal: Uso general / manipulación.",
+      "Guante económico tipo fitter de cuero descarne y ajuste holgado.",
+      "La palma de cuero aporta durabilidad y ayuda a absorber líquidos para mejorar el agarre.",
+      "El forro de algodón favorece la transpiración y el puño de seguridad facilita colocarlo y retirarlo en tareas generales de manipulación."
+    ],
+    "applications": [
+      "Uso general / manipulación"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Endura® 66Q",
+      "66Q",
+      "Superior Glove",
+      "Uso general / manipulación"
+    ],
+    "cta": "Solicita cotización de Endura® 66Q y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/endura-66q/"
+  },
+  {
+    "id": 68,
+    "code": "MXBE",
+    "name": "Clutch Gear™ MXBE",
+    "originalName": "Clutch Gear™ MXBE",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Mecánica / automoción",
+    "riskTypes": [],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/MXBE.webp",
+    "shortDescription": "Guante estilo mecánico de costo eficiente y alta destreza para manipulación ligera.",
+    "description": "Guante estilo mecánico de costo eficiente y alta destreza para manipulación ligera. Incorpora refuerzos en pulgar, índice y puntas de los dedos, dorso de nylon elástico y cierre ajustable de gancho y bucle. Diseñado para brindar movilidad y protección básica en mantenimiento, taller y automoción.",
+    "features": [
+      "Aplicación principal: Mecánica / automoción.",
+      "Guante estilo mecánico de costo eficiente y alta destreza para manipulación ligera.",
+      "Incorpora refuerzos en pulgar, índice y puntas de los dedos, dorso de nylon elástico y cierre ajustable de gancho y bucle.",
+      "Diseñado para brindar movilidad y protección básica en mantenimiento, taller y automoción."
+    ],
+    "applications": [
+      "Mecánica / automoción"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Clutch Gear™ MXBE",
+      "MXBE",
+      "Superior Glove",
+      "Mecánica / automoción"
+    ],
+    "cta": "Solicita cotización de Clutch Gear™ MXBE y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/clutch-gear-mxbe/"
+  },
+  {
+    "id": 69,
+    "code": "MXGCE",
+    "name": "Clutch Gear™ MXGCE",
+    "originalName": "Clutch Gear™ MXGCE",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Mecánica / automoción",
+    "riskTypes": [],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/MXGCE.webp",
+    "shortDescription": "Guante mecánico económico, flexible y duradero.",
+    "description": "Guante mecánico económico, flexible y duradero. Combina un dorso de spandex con palma de piel de cabra y refuerzos de descarne. El área entre pulgar e índice incorpora refuerzo adicional para prolongar la vida útil en trabajos de mantenimiento, manipulación de piezas y aplicaciones automotrices.",
+    "features": [
+      "Aplicación principal: Mecánica / automoción.",
+      "Guante mecánico económico, flexible y duradero.",
+      "Combina un dorso de spandex con palma de piel de cabra y refuerzos de descarne.",
+      "El área entre pulgar e índice incorpora refuerzo adicional para prolongar la vida útil en trabajos de mantenimiento, manipulación de piezas y aplicaciones automotrices."
+    ],
+    "applications": [
+      "Mecánica / automoción"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Clutch Gear™ MXGCE",
+      "MXGCE",
+      "Superior Glove",
+      "Mecánica / automoción"
+    ],
+    "cta": "Solicita cotización de Clutch Gear™ MXGCE y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/clutch-gear-mxgce/"
+  },
+  {
+    "id": 70,
+    "code": "MXGBE",
+    "name": "Clutch Gear™ MXGBE",
+    "originalName": "Clutch Gear™ MXGBE",
+    "category": "Protección para manos",
+    "categorySlug": "proteccion-para-manos",
+    "subcategory": "Mecánica / automoción",
+    "riskTypes": [],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/MXGBE.webp",
+    "shortDescription": "Guante mecánico económico con palma de microfibra sintética de secado rápido.",
+    "description": "Guante mecánico económico con palma de microfibra sintética de secado rápido. Incluye refuerzos de PVC en palma y dedos para mejorar durabilidad y agarre, además de muñeca ajustable. Una opción funcional para mecánica, mantenimiento y manipulación de herramientas o componentes.",
+    "features": [
+      "Aplicación principal: Mecánica / automoción.",
+      "Guante mecánico económico con palma de microfibra sintética de secado rápido.",
+      "Incluye refuerzos de PVC en palma y dedos para mejorar durabilidad y agarre, además de muñeca ajustable.",
+      "Una opción funcional para mecánica, mantenimiento y manipulación de herramientas o componentes."
+    ],
+    "applications": [
+      "Mecánica / automoción"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Clutch Gear™ MXGBE",
+      "MXGBE",
+      "Superior Glove",
+      "Mecánica / automoción"
+    ],
+    "cta": "Solicita cotización de Clutch Gear™ MXGBE y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/clutch-gear-mxgbe/"
+  },
+  {
+    "id": 71,
+    "code": "EGO",
+    "name": "Superior® EGO",
+    "originalName": "Superior® EGO",
+    "category": "Protección para cabeza, vista, audición y respiración",
+    "categorySlug": "proteccion-para-cabeza",
+    "subcategory": "Protección ocular",
+    "riskTypes": [],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/EGO.webp",
+    "shortDescription": "Lentes de seguridad resistentes a rayaduras e impactos, con lentes de policarbonato que bloquean más del 99,9 % de la radiación UVA y UVB.",
+    "description": "Lentes de seguridad resistentes a rayaduras e impactos, con lentes de policarbonato que bloquean más del 99,9 % de la radiación UVA y UVB. Incorporan patillas flexibles, almohadillas nasales suaves y cordón negro desprendible. Cumplen requisitos de protección ocular para entornos industriales y de trabajo.",
+    "features": [
+      "Aplicación principal: Protección ocular.",
+      "Lentes de seguridad resistentes a rayaduras e impactos, con lentes de policarbonato que bloquean más del 99,9 % de la radiación UVA y UVB.",
+      "Incorporan patillas flexibles, almohadillas nasales suaves y cordón negro desprendible.",
+      "Cumplen requisitos de protección ocular para entornos industriales y de trabajo."
+    ],
+    "applications": [
+      "Protección ocular"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Superior® EGO",
+      "EGO",
+      "Superior Glove",
+      "Protección ocular"
+    ],
+    "cta": "Solicita cotización de Superior® EGO y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/superior-ego/"
+  },
+  {
+    "id": 72,
+    "code": "EGS",
+    "name": "Superior® EGS",
+    "originalName": "Superior® EGS",
+    "category": "Protección para cabeza, vista, audición y respiración",
+    "categorySlug": "proteccion-para-cabeza",
+    "subcategory": "Protección ocular",
+    "riskTypes": [],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/EGS.webp",
+    "shortDescription": "Lentes de seguridad envolventes, resistentes a rayaduras y diseñados para protección de alto impacto.",
+    "description": "Lentes de seguridad envolventes, resistentes a rayaduras y diseñados para protección de alto impacto. Las patillas de longitud ajustable y las almohadillas nasales suaves permiten adaptar el ajuste. Sus lentes de policarbonato ofrecen protección frente a radiación UV y están orientados a uso industrial.",
+    "features": [
+      "Aplicación principal: Protección ocular.",
+      "Lentes de seguridad envolventes, resistentes a rayaduras y diseñados para protección de alto impacto.",
+      "Las patillas de longitud ajustable y las almohadillas nasales suaves permiten adaptar el ajuste.",
+      "Sus lentes de policarbonato ofrecen protección frente a radiación UV y están orientados a uso industrial."
+    ],
+    "applications": [
+      "Protección ocular"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Superior® EGS",
+      "EGS",
+      "Superior Glove",
+      "Protección ocular"
+    ],
+    "cta": "Solicita cotización de Superior® EGS y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/superior-egs/"
+  },
+  {
+    "id": 73,
+    "code": "TSPOX",
+    "name": "Superior® TSPOX",
+    "originalName": "Superior® TSPOX",
+    "category": "Protección para cuerpo",
+    "categorySlug": "proteccion-para-cuerpo",
+    "subcategory": "Alta visibilidad",
+    "riskTypes": [
+      "senalizacion"
+    ],
+    "brand": "Superior Glove",
+    "price": null,
+    "availability": "Disponible",
+    "image": "/assets/images/TSPOX.webp",
+    "shortDescription": "Camiseta naranja de alta visibilidad fabricada en poliéster suave, transpirable y resistente al encogimiento.",
+    "description": "Camiseta naranja de alta visibilidad fabricada en poliéster suave, transpirable y resistente al encogimiento. Incluye franjas retrorreflectantes de 2 pulgadas en frente y espalda para visibilidad de 360°. Está diseñada para trabajos donde la presencia visual del trabajador es un requisito importante de seguridad.",
+    "features": [
+      "Aplicación principal: Alta visibilidad.",
+      "Camiseta naranja de alta visibilidad fabricada en poliéster suave, transpirable y resistente al encogimiento.",
+      "Incluye franjas retrorreflectantes de 2 pulgadas en frente y espalda para visibilidad de 360°.",
+      "Está diseñada para trabajos donde la presencia visual del trabajador es un requisito importante de seguridad."
+    ],
+    "applications": [
+      "Alta visibilidad"
+    ],
+    "standard": "Consultar ficha técnica oficial.",
+    "seoKeywords": [
+      "Superior® TSPOX",
+      "TSPOX",
+      "Superior Glove",
+      "Alta visibilidad"
+    ],
+    "cta": "Solicita cotización de Superior® TSPOX y recibe asesoría para seleccionar el equipo adecuado según tu operación.",
+    "sourceUrl": "https://www.superiorglove.com/es/productos/superior-tspox/"
   }
 ];
 
@@ -1759,7 +3160,7 @@ export const categories: ProductCategory[] = [
     "slug": "proteccion-para-cuerpo",
     "icon": "Shirt",
     "description": "Alta visibilidad, chalecos reflectivos y ropa de seguridad para zonas de riesgo.",
-    "count": 1,
+    "count": 2,
     "image": "https://images.unsplash.com/photo-1602886019766-b558d889d0e3",
     "riskTypes": [
       "senalizacion",
@@ -1773,7 +3174,7 @@ export const categories: ProductCategory[] = [
     "slug": "proteccion-para-manos",
     "icon": "Hand",
     "description": "Guantes dieléctricos, anticorte, químicos, térmicos, de cuero y mangas de protección.",
-    "count": 8,
+    "count": 45,
     "image": "https://img.rocket.new/generatedImages/rocket_gen_img_11ee0d21e-1779252722362.png",
     "riskTypes": [
       "electrico",
@@ -1788,7 +3189,7 @@ export const categories: ProductCategory[] = [
     "slug": "proteccion-para-cabeza",
     "icon": "HardHat",
     "description": "Cascos, accesorios, protección visual, auditiva, respiratoria y complementos para casco.",
-    "count": 7,
+    "count": 9,
     "image": "https://img.rocket.new/generatedImages/rocket_gen_img_12e845811-1779252722026.png",
     "riskTypes": [
       "electrico",
@@ -1857,6 +3258,7 @@ export const brands = [
 "No especificada",
 "PIP",
 "SHOWA",
+"Superior Glove",
 "WEARWELL",
 "YOKE"
 ];

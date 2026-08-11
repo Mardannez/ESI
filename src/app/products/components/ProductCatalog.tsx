@@ -53,6 +53,7 @@ export default function ProductCatalog() {
         p.description,
         p.shortDescription,
         p.standard,
+        ...p.applications,
         ...p.seoKeywords,
       ].join(' ').toLowerCase();
       const matchSearch = !filters.search || searchHaystack.includes(filters.search.toLowerCase());
