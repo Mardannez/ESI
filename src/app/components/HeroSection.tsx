@@ -52,6 +52,7 @@ export default function HeroSection() {
 
   return (
     <section className="relative overflow-hidden bg-[#05080b] pt-16 text-white sm:pt-20">
+      <h1 className="sr-only">Equipos de seguridad industrial en Honduras</h1>
       <div className="relative min-h-[590px] pb-6 sm:h-[calc(100vh-5rem)] sm:min-h-[560px] sm:pb-0">
         <div className="relative aspect-[16/9] w-full sm:absolute sm:inset-0 sm:aspect-auto">
           {heroSlides.map((slide, index) => (
@@ -72,7 +73,7 @@ export default function HeroSection() {
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-end lg:pr-28">
             <Link href="/products" className="btn-accent w-full px-7 py-4 text-base sm:w-auto">
               <Icon name="ShoppingBag" size={18} className="text-accent-foreground" />
-              Ver catalogo
+              Ver catálogo
             </Link>
             <a
               href={buildWhatsAppUrl()}

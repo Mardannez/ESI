@@ -1,6 +1,7 @@
 import React from 'react';
 import type { Metadata, Viewport } from 'next';
 import { Plus_Jakarta_Sans } from 'next/font/google';
+import { absoluteUrl, siteConfig } from '@/lib/seo';
 import '../styles/tailwind.css';
 
 const plusJakartaSans = Plus_Jakarta_Sans({
@@ -16,9 +17,54 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
-  title: 'ESI — Equipos de Seguridad Industrial',
-  description: 'Proveedor de artículos de seguridad industrial en Honduras. Cascos, guantes, botas, arneses, chalecos y más. Cotiza por WhatsApp.',
+  metadataBase: new URL(siteConfig.url),
+  title: 'ESI Honduras | Equipos de Seguridad Industrial',
+  description: siteConfig.description,
+  applicationName: siteConfig.name,
+  creator: siteConfig.name,
+  publisher: siteConfig.name,
+  category: 'Seguridad industrial',
+  keywords: [
+    'equipos de seguridad industrial Honduras',
+    'equipo de protección personal',
+    'EPP Honduras',
+    'cascos de seguridad',
+    'guantes industriales',
+    'arneses de seguridad',
+    'protección eléctrica',
+    'señalización industrial',
+  ],
+  openGraph: {
+    type: 'website',
+    locale: siteConfig.locale,
+    url: siteConfig.url,
+    siteName: siteConfig.name,
+    title: 'ESI Honduras | Equipos de Seguridad Industrial',
+    description: siteConfig.description,
+    images: [
+      {
+        url: absoluteUrl(siteConfig.socialImage),
+        alt: 'ESI Honduras - equipos de seguridad industrial',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'ESI Honduras | Equipos de Seguridad Industrial',
+    description: siteConfig.description,
+    images: [absoluteUrl(siteConfig.socialImage)],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
+    },
+  },
   icons: {
     icon: [{ url: '/favicon.ico', type: 'image/x-icon' }],
   },
@@ -31,7 +77,7 @@ export default function RootLayout({
     <html lang="es" className={plusJakartaSans.variable}>
       <body className={plusJakartaSans.className}>
         {children}
-</body>
+      </body>
     </html>
   );
 }

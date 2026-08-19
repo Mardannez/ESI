@@ -7,11 +7,14 @@ import AppImage from '@/components/ui/AppImage';
 import Icon from '@/components/ui/AppIcon';
 import Link from 'next/link';
 import { buildWhatsAppUrl } from '@/data/products';
+import { createPageMetadata } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'Nosotros — ESI',
-  description: 'Conoce a ESI – Equipos de Seguridad Industrial, más de 10 años protegiendo empresas y trabajadores en Honduras con equipos certificados.'
-};
+export const metadata: Metadata = createPageMetadata({
+  title: 'Nosotros | ESI Honduras',
+  description:
+    'Conoce a ESI Honduras, proveedor de equipos de seguridad industrial con asesoría personalizada para empresas y trabajadores.',
+  path: '/about',
+});
 
 const values = [
 {
@@ -63,7 +66,7 @@ export default function AboutPage() {
               Quiénes <span className="text-accent">somos</span>
             </h1>
             <p className="text-white/70 text-base max-w-xl mx-auto">
-              Más de una década protegiendo equipos de trabajo en Honduras con productos certificados y asesoría personalizada.
+              Protegemos equipos de trabajo en Honduras con productos confiables y asesoría personalizada.
             </p>
           </div>
         </div>

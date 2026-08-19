@@ -18,7 +18,6 @@ type CategoryGuide = {
   subcategories: string[];
   commercialFocus: string;
   keywords: string[];
-  advisoryNote?: string;
   productCategory?: string;
 };
 
@@ -38,7 +37,7 @@ const categoryGuides: CategoryGuide[] = [
     name: 'Protección para cuerpo',
     slug: 'proteccion-para-cuerpo',
     productCount: 1,
-    image: 'https://images.unsplash.com/photo-1602886019766-b558d889d0e3',
+    image: '/assets/images/CHALECO_JOPZ_MALLA_VERDE_CINTA REFLECTIVA_CON_VELCRO.png',
     icon: 'Shirt',
     risks: ['senalizacion', 'termico', 'ergonomia'],
     subcategories: ['Alta visibilidad', 'Chalecos reflectivos', 'Ropa de seguridad'],
@@ -51,35 +50,33 @@ const categoryGuides: CategoryGuide[] = [
     name: 'Protección para manos',
     slug: 'proteccion-para-manos',
     productCount: 8,
-    image: 'https://img.rocket.new/generatedImages/rocket_gen_img_11ee0d21e-1779252722362.png',
+    image: '/assets/images/GUANTE_ANTICORTE_GRIS_PU_GRIS_EN_PALMA_JUBA.png',
     icon: 'Hand',
     risks: ['electrico', 'corte', 'quimico', 'termico'],
     subcategories: ['Guantes dieléctricos', 'Guantes anticorte', 'Guantes químicos', 'Guantes térmicos', 'Guantes de cuero', 'Mangas de protección'],
     commercialFocus:
       'Crear filtros por riesgo principal, marca, tallas y norma. En el detalle conviene incluir aplicaciones y advertencias de uso cuando aplique.',
     keywords: ['guantes industriales', 'guantes dieléctricos', 'guantes anticorte', 'guantes químicos'],
-    advisoryNote: 'Validar voltajes de guantes dieléctricos contra ficha técnica del fabricante antes de publicarlos como dato definitivo.',
     productCategory: 'Protección para manos',
   },
   {
     name: 'Protección para cabeza, vista, audición y respiración',
     slug: 'proteccion-para-cabeza',
     productCount: 7,
-    image: 'https://img.rocket.new/generatedImages/rocket_gen_img_12e845811-1779252722026.png',
+    image: '/assets/images/CASCO_TIPO_I_DIELÉCTRICO_CONTRA_ALTO VOLTAJE_(30.000 VOLTIOS).png',
     icon: 'HardHat',
     risks: ['electrico', 'quimico', 'senalizacion'],
     subcategories: ['Cascos y accesorios', 'Protección visual', 'Protección auditiva', 'Protección respiratoria', 'Accesorios para casco'],
     commercialFocus:
       'Usar esta categoría principal con subcategorías claras para evitar que respiradores, tapones auditivos o lentes queden ocultos dentro de una categoría demasiado general.',
     keywords: ['cascos industriales', 'protección visual', 'protección auditiva', 'protección respiratoria'],
-    advisoryNote: 'Validar datos de voltaje en casco dieléctrico contra ficha técnica del fabricante antes de publicar valores definitivos.',
     productCategory: 'Protección para cabeza, vista, audición y respiración',
   },
   {
     name: 'Protección eléctrica y bloqueo LOTO',
     slug: 'proteccion-electrica',
     productCount: 2,
-    image: 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4',
+    image: '/assets/images/CANDADO_LOTO_DE_ALUMINIO_DETECTABLE_40MM_ABUS_7240HB40.png',
     icon: 'LockKeyhole',
     risks: ['electrico', 'senalizacion'],
     subcategories: ['Candados LOTO', 'Etiquetas de bloqueo', 'Bloqueo de energía'],
@@ -91,21 +88,20 @@ const categoryGuides: CategoryGuide[] = [
     name: 'Protección para altura',
     slug: 'proteccion-para-altura',
     productCount: 11,
-    image: 'https://img.rocket.new/generatedImages/rocket_gen_img_13037b4bd-1779252721831.png',
+    image: '/assets/images/ARNÉS_4_ARGOLLAS_EN_X.png',
     icon: 'MoveUp',
     risks: ['altura'],
     subcategories: ['Arneses', 'Eslingas', 'Anclajes', 'Líneas de vida', 'Conectores', 'Absorbedores de impacto'],
     commercialFocus:
       'Ordenar por tipo de sistema: arneses, eslingas, anclajes, líneas de vida y conectores. Destacar compatibilidad del sistema completo.',
     keywords: ['arneses de seguridad', 'equipo para altura', 'líneas de vida', 'eslingas de seguridad'],
-    advisoryNote: 'Publicar con asesoría técnica y advertencia de selección según análisis de riesgo, sistema completo y normativa aplicable.',
     productCategory: 'Protección para altura',
   },
   {
     name: 'Señalización y control de áreas',
     slug: 'senalizacion-industrial',
     productCount: 1,
-    image: 'https://img.rocket.new/generatedImages/rocket_gen_img_10638ea13-1779252722532.png',
+    image: '/assets/images/ROLLO_CINTA_DE_PRECAUCIÓN_3X1000_YARDAS _MARILLO.png',
     icon: 'TriangleAlert',
     risks: ['senalizacion'],
     subcategories: ['Señales preventivas', 'Señales obligatorias', 'Conos', 'Cintas de advertencia', 'Rotulación industrial'],
@@ -118,7 +114,7 @@ const categoryGuides: CategoryGuide[] = [
     name: 'Ergonomía',
     slug: 'ergonomia-industrial',
     productCount: 1,
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758',
+    image: "/assets/images/ALFOMBRA_ERGONÓMICA_ANTIFATIGA_1516_DE 3'X5'_WEARWELL.png",
     icon: 'Activity',
     risks: ['ergonomia'],
     subcategories: ['Alfombras antifatiga', 'Superficies de apoyo', 'Estaciones de trabajo'],
@@ -244,16 +240,6 @@ export default function CategoryGuideGrid() {
                 </div>
 
                 <p className="mt-4 text-sm leading-relaxed text-muted-foreground">{category.commercialFocus}</p>
-
-                {category.advisoryNote && (
-                  <div className="mt-4 rounded-xl border border-amber-200 bg-amber-50 p-3 text-xs font-semibold leading-relaxed text-amber-900">
-                    <span className="inline-flex items-center gap-1 text-amber-800">
-                      <Icon name="TriangleAlert" size={14} />
-                      Observación técnica:
-                    </span>{' '}
-                    {category.advisoryNote}
-                  </div>
-                )}
 
                 <div className="mt-4 flex flex-wrap gap-1.5">
                   {category.keywords.map((keyword) => (

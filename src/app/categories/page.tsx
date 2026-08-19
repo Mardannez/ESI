@@ -6,11 +6,14 @@ import WhatsAppFloat from '@/components/WhatsAppFloat';
 import Icon from '@/components/ui/AppIcon';
 import { buildWhatsAppUrl } from '@/data/products';
 import CategoryGuideGrid from './components/CategoryGuideGrid';
+import { createPageMetadata } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'Categorías — SeguridadHN',
-  description: 'Explora categorías de equipos de seguridad industrial con filtros por riesgo: eléctrico, corte, químico, térmico, altura, señalización y ergonomía.',
-};
+export const metadata: Metadata = createPageMetadata({
+  title: 'Categorías de Seguridad Industrial | ESI Honduras',
+  description:
+    'Explora equipos de seguridad industrial por riesgo: protección eléctrica, corte, químicos, trabajos en altura, señalización y ergonomía.',
+  path: '/categories',
+});
 
 export default function CategoriesPage() {
   return (

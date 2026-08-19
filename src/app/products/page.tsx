@@ -5,11 +5,14 @@ import Footer from '@/components/Footer';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
 import ProductCatalog from './components/ProductCatalog';
 import Icon from '@/components/ui/AppIcon';
+import { createPageMetadata } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'Catálogo de Productos — SeguridadHN',
-  description: 'Explora nuestro catálogo completo de equipos de seguridad industrial: cascos, guantes, botas, arneses, chalecos y más. Cotiza por WhatsApp.',
-};
+export const metadata: Metadata = createPageMetadata({
+  title: 'Catálogo de Equipos de Seguridad Industrial | ESI Honduras',
+  description:
+    'Explora el catálogo de ESI Honduras: cascos, guantes, arneses, señalización, protección eléctrica y otros equipos de protección personal.',
+  path: '/products',
+});
 
 export default function ProductsPage() {
   return (
