@@ -3161,7 +3161,7 @@ export const categories: ProductCategory[] = [
     "icon": "Shirt",
     "description": "Alta visibilidad, chalecos reflectivos y ropa de seguridad para zonas de riesgo.",
     "count": 2,
-    "image": "https://images.unsplash.com/photo-1602886019766-b558d889d0e3",
+    "image": "/assets/images/CHALECO_JOPZ_MALLA_VERDE_CINTA REFLECTIVA_CON_VELCRO.png",
     "riskTypes": [
       "senalizacion",
       "termico",
@@ -3175,7 +3175,7 @@ export const categories: ProductCategory[] = [
     "icon": "Hand",
     "description": "Guantes dieléctricos, anticorte, químicos, térmicos, de cuero y mangas de protección.",
     "count": 45,
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_11ee0d21e-1779252722362.png",
+    "image": "/assets/images/GUANTE_ANTICORTE_GRIS_PU_GRIS_EN_PALMA_JUBA.png",
     "riskTypes": [
       "electrico",
       "corte",
@@ -3190,7 +3190,7 @@ export const categories: ProductCategory[] = [
     "icon": "HardHat",
     "description": "Cascos, accesorios, protección visual, auditiva, respiratoria y complementos para casco.",
     "count": 9,
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_12e845811-1779252722026.png",
+    "image": "/assets/images/CASCO_TIPO_I_DIELÉCTRICO_CONTRA_ALTO VOLTAJE_(30.000 VOLTIOS).png",
     "riskTypes": [
       "electrico",
       "quimico",
@@ -3204,7 +3204,7 @@ export const categories: ProductCategory[] = [
     "icon": "LockKeyhole",
     "description": "Candados, etiquetas y accesorios de bloqueo y etiquetado LOTO para control de energía.",
     "count": 2,
-    "image": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4",
+    "image": "/assets/images/CANDADO_LOTO_DE_ALUMINIO_DETECTABLE_40MM_ABUS_7240HB40.png",
     "riskTypes": [
       "electrico",
       "senalizacion"
@@ -3217,7 +3217,7 @@ export const categories: ProductCategory[] = [
     "icon": "MoveUp",
     "description": "Arneses, eslingas, anclajes, líneas de vida, conectores y sistemas anticaída.",
     "count": 11,
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_13037b4bd-1779252721831.png",
+    "image": "/assets/images/ARNÉS_4_ARGOLLAS_EN_X.png",
     "riskTypes": [
       "altura"
     ]
@@ -3229,7 +3229,7 @@ export const categories: ProductCategory[] = [
     "icon": "TriangleAlert",
     "description": "Cintas, señales y elementos para delimitación, advertencia y control de áreas.",
     "count": 3,
-    "image": "https://img.rocket.new/generatedImages/rocket_gen_img_10638ea13-1779252722532.png",
+    "image": "/assets/images/ROLLO_CINTA_DE_PRECAUCIÓN_3X1000_YARDAS _MARILLO.png",
     "riskTypes": [
       "senalizacion"
     ]
@@ -3241,7 +3241,7 @@ export const categories: ProductCategory[] = [
     "icon": "Activity",
     "description": "Soluciones antifatiga y soporte ergonómico para jornadas prolongadas.",
     "count": 1,
-    "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758",
+    "image": "/assets/images/ALFOMBRA_ERGONÓMICA_ANTIFATIGA_1516_DE 3'X5'_WEARWELL.png",
     "riskTypes": [
       "ergonomia"
     ]

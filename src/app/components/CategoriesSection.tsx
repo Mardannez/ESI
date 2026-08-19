@@ -56,7 +56,7 @@ export default function CategoriesSection() {
                   alt={`${cat?.name} - categoría de seguridad industrial, productos sobre fondo oscuro`}
                   fill
                   sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                  className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
+                  className="object-cover object-center w-full h-full scale-100 group-hover:scale-105 transition-transform duration-500"
                 />
                 {/* Scrim */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
