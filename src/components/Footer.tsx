@@ -105,9 +105,22 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3">
-          <p className="text-white/40 text-xs">
-            © 2026 ESI – Equipos de Seguridad Industrial. Todos los derechos reservados.
-          </p>
+          <div className="space-y-1 text-center sm:text-left">
+            <p className="text-white/40 text-xs">
+              © 2026 ESI – Equipos de Seguridad Industrial. Todos los derechos reservados.
+            </p>
+            <p className="text-white/40 text-xs">
+              Desarrollado por{' '}
+              <a
+                href="https://www.jdmcodehn.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-white/70 transition-colors hover:text-accent"
+              >
+                JDM Code HN
+              </a>
+            </p>
+          </div>
           <a
             href={buildWhatsAppUrl()}
             target="_blank"
