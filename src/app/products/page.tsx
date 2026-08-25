@@ -8,7 +8,7 @@ import Icon from '@/components/ui/AppIcon';
 import { createPageMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = createPageMetadata({
-  title: 'Catálogo de Equipos de Seguridad Industrial | ESI Honduras',
+  title: 'Equipos de Seguridad Industrial | ESI Honduras',
   description:
     'Explora el catálogo de ESI Honduras: cascos, guantes, arneses, señalización, protección eléctrica y otros equipos de protección personal.',
   path: '/products',

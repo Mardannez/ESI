@@ -201,7 +201,7 @@ export const products: Product[] = [
       "termico"
     ],
     "brand": "JUBA",
-    "price": 800,
+    "price": null,
     "availability": "Disponible",
     "image": "/assets/images/GUANTE_ANTICORTE_GRIS_PU_GRIS_EN_PALMA_JUBA.png",
     "shortDescription": "Guante anticorte JUBA con fibra K-Rock y recubrimiento de poliuretano en palma, ideal para manipulación de piezas cortantes con buen agarre y destreza.",
