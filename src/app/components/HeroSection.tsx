@@ -8,6 +8,7 @@ import { buildWhatsAppUrl } from '@/data/products';
 type HeroSlide = {
   image: string;
   alt: string;
+  backgroundSize?: string;
 };
 
 const heroSlides: HeroSlide[] = [
@@ -24,8 +25,9 @@ const heroSlides: HeroSlide[] = [
     alt: 'Banner de respiradores y filtros para aire limpio en jornadas exigentes',
   },
   {
-    image: '/assets/images/Banner_guantes_tecnicos_para_corte.png',
-    alt: 'Banner de guantes tecnicos para corte, quimicos, frio y electricidad',
+    image: '/assets/images/Banner_Guantes_Superior_Glove.png',
+    alt: 'Banner de guantes térmicos Superior Glove para protección, resistencia y confort en trabajos exigentes',
+    backgroundSize: 'auto 94%',
   },
 ];
 
@@ -60,8 +62,11 @@ export default function HeroSection() {
               key={slide.image}
               role="img"
               aria-label={slide.alt}
-              style={{ backgroundImage: `url("${slide.image}")` }}
-              className={`absolute inset-0 bg-contain bg-top bg-no-repeat transition-opacity duration-1000 ease-out sm:bg-center lg:bg-fixed ${
+              style={{
+                backgroundImage: `url("${slide.image}")`,
+                backgroundSize: slide.backgroundSize,
+              }}
+              className={`absolute inset-0 bg-contain bg-top bg-no-repeat transition-opacity duration-1000 ease-out sm:bg-center ${
                 index === activeSlide ? 'opacity-100' : 'opacity-0'
               }`}
               aria-hidden={index !== activeSlide}
